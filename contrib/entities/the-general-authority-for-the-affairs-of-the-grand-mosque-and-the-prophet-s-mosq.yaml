@@ -1,0 +1,43 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17333
+slug: 17333-the-general-authority-for-the-affairs-of-the-grand-mosque-and-the-prophet-s-mosq
+contrib_file_name: the-general-authority-for-the-affairs-of-the-grand-mosque-and-the-prophet-s-mosq.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: الهيئة العامة للعناية بشؤون المسجد الحرام والمسجد النبوي
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/17333
+    official_website: https://alharamain.gov.sa/public?page=home_ar
+  en:
+    name: The General Authority for the Affairs of the Grand Mosque and the Prophet's
+      Mosq
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/17333
+    official_website: https://alharamain.gov.sa/public?page=home_ar
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - The General Authority for the Affairs of the Grand Mosque and the Prophet's Mosq
+  - الهيئة العامة للعناية بشؤون المسجد الحرام والمسجد النبوي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

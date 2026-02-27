@@ -1,0 +1,19 @@
+# Generated ministry-specific scaffold from official GOV.SA data.
+# Keep this file aligned with the corresponding contrib/entities record.
+entity_id: 17900
+contrib_entity_file: ../entities/ministry-of-human-resource-and-social-development.yaml
+name:
+  en: Ministry of Human Resource and Social Development
+  ar: وزارة الموارد البشرية والتنمية الاجتماعية
+official_open_data:
+  core_catalog_source: ksa_open_data_platform
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  source_notes: Validate publisher mapping in CKAN and then bind ministry-specific
+    API sources.
+contribution_checklist:
+- Map ministry publisher identifier(s) in CKAN.
+- Validate available resources and formats.
+- Attach any ministry-specific API source (if available).
+- Add unit and integration tests.

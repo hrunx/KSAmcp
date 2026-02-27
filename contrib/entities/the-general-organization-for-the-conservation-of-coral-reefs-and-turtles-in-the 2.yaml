@@ -1,0 +1,43 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18311
+slug: 18311-the-general-organization-for-the-conservation-of-coral-reefs-and-turtles-in-the
+contrib_file_name: the-general-organization-for-the-conservation-of-coral-reefs-and-turtles-in-the.yaml
+is_ministry: false
+category_ids:
+- '17798'
+category_names:
+- Organizations
+- المؤسسات
+locales:
+  ar:
+    name: المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في البحر الأحمر
+    category_id: '17798'
+    category_name: المؤسسات
+    detail_url: https://www.my.gov.sa/ar/agencies/18311
+    official_website: https://shams.gov.sa
+  en:
+    name: The General Organization for the Conservation of Coral Reefs and Turtles
+      in the
+    category_id: '17798'
+    category_name: Organizations
+    detail_url: https://www.my.gov.sa/en/agencies/18311
+    official_website: https://shams.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - The General Organization for the Conservation of Coral Reefs and Turtles in the
+  - المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في البحر الأحمر
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

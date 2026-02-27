@@ -1,0 +1,132 @@
+{
+  "generated_at_utc": "2026-02-27T04:07:07Z",
+  "govsa_directory_evidence": {
+    "sources": [
+      "https://www.my.gov.sa/en/agencies",
+      "https://www.my.gov.sa/ar/agencies"
+    ],
+    "artifacts": [
+      "reports/govsa_entity_registry.json",
+      "reports/govsa_ministries_registry.json",
+      "reports/govsa_entity_registry.md"
+    ],
+    "stats": {
+      "official_total_rows_reported": 363,
+      "raw_rows_collected": 1452,
+      "unique_entity_ids": 360,
+      "ministry_entity_ids": 27,
+      "category_taxonomy_count": 14,
+      "crawl_strategy_count": 56
+    }
+  },
+  "sample_ministry_records": [
+    {
+      "entity_id": 17330,
+      "name_en": "Ministry of Sports",
+      "official_website": "https://www.gsa.gov.sa/en/Pages/default.aspx"
+    },
+    {
+      "entity_id": 17342,
+      "name_en": "Ministry of National Guard Health Affairs (MNGHA)",
+      "official_website": "http://www.mngha.med.sa/English/Pages/Default.aspx"
+    },
+    {
+      "entity_id": 17396,
+      "name_en": "Ministry of Investment",
+      "official_website": "https://www.misa.gov.sa/en"
+    },
+    {
+      "entity_id": 17399,
+      "name_en": "Ministry of Tourism",
+      "official_website": "https://mt.gov.sa/en/Pages/default.aspx"
+    },
+    {
+      "entity_id": 17597,
+      "name_en": "Ministry of Communications and Information Technology",
+      "official_website": "https://www.mcit.gov.sa/en/node"
+    },
+    {
+      "entity_id": 17600,
+      "name_en": "Ministry of Economy and Planning",
+      "official_website": "https://www.mep.gov.sa/en"
+    },
+    {
+      "entity_id": 17603,
+      "name_en": "Ministry of Energy",
+      "official_website": "https://www.moenergy.gov.sa/ar"
+    },
+    {
+      "entity_id": 17606,
+      "name_en": "Ministry of Commerce",
+      "official_website": "https://mc.gov.sa/"
+    }
+  ],
+  "live_api_fetch_evidence": {
+    "request": {
+      "method": "GET",
+      "url": "https://hdp.moh.gov.sa/api/v1/Dataset/search/public",
+      "params": {
+        "search": "الهيئات",
+        "pageNumber": 1,
+        "pageSize": 3
+      }
+    },
+    "response": {
+      "http_status": 200,
+      "code": 200,
+      "totalRowsCount": 2,
+      "sample_datasets": [
+        {
+          "id": "79e7b8f0-0fe6-4c08-90c4-9a69e08e9de2",
+          "name": "عدد الهيئات الصحية الشرعية وعدد قضايا الأخطاء الطبية المعروضة عليها  حسب المنطقة الصحية لعام 2022م."
+        },
+        {
+          "id": "8052b7b2-1cec-4d5c-bf9d-7526f7ec3ba1",
+          "name": "الحالات التي أرسلت للعلاج بالخارج من قبل الهيئات الطبية حسب الدولة والحالة الطبية عام  2023م."
+        }
+      ]
+    }
+  },
+  "quality_validation_evidence": {
+    "command": "PYTHONPATH=. .venv/bin/ruff check . && PYTHONPATH=. .venv/bin/pytest -q",
+    "result": {
+      "ruff": "passed",
+      "pytest": "18 passed in 0.78s"
+    }
+  },
+  "contributor_structure_evidence": {
+    "entity_yaml_files": 360,
+    "entity_backlog_index": "contrib/entities/README.md",
+    "ministry_backlog_index": "contrib/ministries/README.md"
+  },
+  "fastapi_gateway_smoke_evidence": {
+    "runtime_command": "./ksa-mcp.sh rebuild",
+    "http_checks": {
+      "health": 200,
+      "api_tools_without_key": 401,
+      "api_tools_with_key": 200,
+      "mcp_without_key": 401
+    },
+    "mcp_with_api_key": {
+      "endpoint": "http://ksa-opendata-mcp.localhost:8000/mcp/",
+      "tool": "list_sources",
+      "source_count": 7,
+      "status": "passed"
+    },
+    "fastapi_tool_live_fetch": {
+      "endpoint": "/api/tools/call_source_endpoint",
+      "source_id": "moh_hdp_api",
+      "tool_endpoint_name": "dataset_search_public",
+      "response_code": 200,
+      "total_rows_count": 196,
+      "page_size": 2
+    }
+  },
+  "known_constraints": {
+    "ckan_waf_rejection": {
+      "source": "https://open.data.gov.sa/api/3/action/*",
+      "status": "blocked_from_current_network",
+      "mitigation_in_code": "non-json CKAN responses now return explicit diagnostic errors"
+    }
+  }
+}

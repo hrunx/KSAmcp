@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17819
+slug: 17819-saudi-conventions-and-exhibitions-general-authority
+contrib_file_name: saudi-conventions-and-exhibitions-general-authority.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: الهيئة العامة للمعارض والمؤتمرات
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/17819
+    official_website: https://www.scega.gov.sa/en/pages/home.aspx
+  en:
+    name: Saudi Conventions and Exhibitions General Authority
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/17819
+    official_website: https://www.scega.gov.sa/en/pages/home.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Saudi Conventions and Exhibitions General Authority
+  - الهيئة العامة للمعارض والمؤتمرات
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

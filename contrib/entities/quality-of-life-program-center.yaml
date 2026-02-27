@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17840
+slug: 17840-quality-of-life-program-center
+contrib_file_name: quality-of-life-program-center.yaml
+is_ministry: false
+category_ids:
+- '17723'
+category_names:
+- Centers
+- المراكز
+locales:
+  ar:
+    name: مركز برنامج جودة الحياة
+    category_id: '17723'
+    category_name: المراكز
+    detail_url: https://www.my.gov.sa/ar/agencies/17840
+    official_website: null
+  en:
+    name: Quality of Life Program Center
+    category_id: '17723'
+    category_name: Centers
+    detail_url: https://www.my.gov.sa/en/agencies/17840
+    official_website: null
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Quality of Life Program Center
+  - مركز برنامج جودة الحياة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

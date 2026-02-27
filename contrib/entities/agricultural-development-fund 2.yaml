@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17504
+slug: 17504-agricultural-development-fund
+contrib_file_name: agricultural-development-fund.yaml
+is_ministry: false
+category_ids:
+- '18224'
+category_names:
+- Development Funds and Banks
+- الصناديق
+locales:
+  ar:
+    name: صندوق التنمية الزراعية
+    category_id: '18224'
+    category_name: الصناديق
+    detail_url: https://www.my.gov.sa/ar/agencies/17504
+    official_website: https://adf.gov.sa/
+  en:
+    name: Agricultural Development Fund
+    category_id: '18224'
+    category_name: Development Funds and Banks
+    detail_url: https://www.my.gov.sa/en/agencies/17504
+    official_website: https://adf.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Agricultural Development Fund
+  - صندوق التنمية الزراعية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

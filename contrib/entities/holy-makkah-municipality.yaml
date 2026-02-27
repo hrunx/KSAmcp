@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17264
+slug: 17264-holy-makkah-municipality
+contrib_file_name: holy-makkah-municipality.yaml
+is_ministry: false
+category_ids:
+- '17528'
+category_names:
+- Municipalities
+- الأمانات
+locales:
+  ar:
+    name: أمانة العاصمة المقدسة
+    category_id: '17528'
+    category_name: الأمانات
+    detail_url: https://www.my.gov.sa/ar/agencies/17264
+    official_website: https://www.hmm.gov.sa/portal
+  en:
+    name: Holy Makkah Municipality
+    category_id: '17528'
+    category_name: Municipalities
+    detail_url: https://www.my.gov.sa/en/agencies/17264
+    official_website: https://www.hmm.gov.sa/portal
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Holy Makkah Municipality
+  - أمانة العاصمة المقدسة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

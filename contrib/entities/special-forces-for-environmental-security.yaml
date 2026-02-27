@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18116
+slug: 18116-special-forces-for-environmental-security
+contrib_file_name: special-forces-for-environmental-security.yaml
+is_ministry: true
+category_ids:
+- '17489'
+category_names:
+- Ministries
+- الوزارات
+locales:
+  ar:
+    name: القوات الخاصة للأمن البيئي
+    category_id: '17489'
+    category_name: الوزارات
+    detail_url: https://www.my.gov.sa/ar/agencies/18116
+    official_website: https://www.moi.gov.sa/wps/vanityurl/ar/environmentalsecurity
+  en:
+    name: Special Forces For Environmental Security
+    category_id: '17489'
+    category_name: Ministries
+    detail_url: https://www.my.gov.sa/en/agencies/18116
+    official_website: https://www.moi.gov.sa/wps/vanityurl/ar/environmentalsecurity
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Special Forces For Environmental Security
+  - القوات الخاصة للأمن البيئي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

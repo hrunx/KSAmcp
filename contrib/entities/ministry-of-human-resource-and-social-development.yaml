@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17900
+slug: 17900-ministry-of-human-resource-and-social-development
+contrib_file_name: ministry-of-human-resource-and-social-development.yaml
+is_ministry: true
+category_ids:
+- '17489'
+category_names:
+- Ministries
+- الوزارات
+locales:
+  ar:
+    name: وزارة الموارد البشرية والتنمية الاجتماعية
+    category_id: '17489'
+    category_name: الوزارات
+    detail_url: https://www.my.gov.sa/ar/agencies/17900
+    official_website: https://www.hrsd.gov.sa
+  en:
+    name: Ministry of Human Resource and Social Development
+    category_id: '17489'
+    category_name: Ministries
+    detail_url: https://www.my.gov.sa/en/agencies/17900
+    official_website: https://www.hrsd.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Ministry of Human Resource and Social Development
+  - وزارة الموارد البشرية والتنمية الاجتماعية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

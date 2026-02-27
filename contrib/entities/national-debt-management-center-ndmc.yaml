@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18056
+slug: 18056-national-debt-management-center-ndmc
+contrib_file_name: national-debt-management-center-ndmc.yaml
+is_ministry: false
+category_ids:
+- '17723'
+category_names:
+- Centers
+- المراكز
+locales:
+  ar:
+    name: المركز الوطني لإدارة الدين
+    category_id: '17723'
+    category_name: المراكز
+    detail_url: https://www.my.gov.sa/ar/agencies/18056
+    official_website: https://ndmc.gov.sa/Pages/default.aspx
+  en:
+    name: National Debt Management Center (NDMC)
+    category_id: '17723'
+    category_name: Centers
+    detail_url: https://www.my.gov.sa/en/agencies/18056
+    official_website: https://ndmc.gov.sa/Pages/default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - National Debt Management Center (NDMC)
+  - المركز الوطني لإدارة الدين
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

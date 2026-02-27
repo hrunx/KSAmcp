@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17441
+slug: 17441-majmaah-university
+contrib_file_name: majmaah-university.yaml
+is_ministry: false
+category_ids:
+- '17963'
+category_names:
+- Universities
+- الجامعات
+locales:
+  ar:
+    name: جامعة المجمعة
+    category_id: '17963'
+    category_name: الجامعات
+    detail_url: https://www.my.gov.sa/ar/agencies/17441
+    official_website: https://www.mu.edu.sa/en
+  en:
+    name: Majmaah University
+    category_id: '17963'
+    category_name: Universities
+    detail_url: https://www.my.gov.sa/en/agencies/17441
+    official_website: https://www.mu.edu.sa/en
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Majmaah University
+  - جامعة المجمعة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

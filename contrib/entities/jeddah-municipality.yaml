@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17270
+slug: 17270-jeddah-municipality
+contrib_file_name: jeddah-municipality.yaml
+is_ministry: false
+category_ids:
+- '17528'
+category_names:
+- Municipalities
+- الأمانات
+locales:
+  ar:
+    name: أمانة محافظة جدة
+    category_id: '17528'
+    category_name: الأمانات
+    detail_url: https://www.my.gov.sa/ar/agencies/17270
+    official_website: http://www.jeddah.gov.sa
+  en:
+    name: Jeddah Municipality
+    category_id: '17528'
+    category_name: Municipalities
+    detail_url: https://www.my.gov.sa/en/agencies/17270
+    official_website: http://www.jeddah.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Jeddah Municipality
+  - أمانة محافظة جدة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

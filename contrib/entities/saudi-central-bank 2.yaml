@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18308
+slug: 18308-saudi-central-bank
+contrib_file_name: saudi-central-bank.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: البنك المركزي السعودي
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/18308
+    official_website: http://www.sama.gov.sa/en-us/pages/default.aspx
+  en:
+    name: Saudi Central Bank
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/18308
+    official_website: http://www.sama.gov.sa/en-us/pages/default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Saudi Central Bank
+  - البنك المركزي السعودي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: sama_open_data_api
+    reason: SAMA financial open data API.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

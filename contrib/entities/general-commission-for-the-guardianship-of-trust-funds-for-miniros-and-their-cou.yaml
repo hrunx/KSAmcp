@@ -1,0 +1,43 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17735
+slug: 17735-general-commission-for-the-guardianship-of-trust-funds-for-miniros-and-their-cou
+contrib_file_name: general-commission-for-the-guardianship-of-trust-funds-for-miniros-and-their-cou.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/17735
+    official_website: http://wilayah.gov.sa/ar/Pages/default.aspx
+  en:
+    name: General Commission for the Guardianship of Trust Funds for Miniros and their
+      Cou
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/17735
+    official_website: http://wilayah.gov.sa/ar/Pages/default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - General Commission for the Guardianship of Trust Funds for Miniros and their Cou
+  - الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

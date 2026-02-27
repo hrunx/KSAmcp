@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17966
+slug: 17966-the-financial-academy
+contrib_file_name: the-financial-academy.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: الاكاديمية المالية
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17966
+    official_website: http://www.fa.gov.sa
+  en:
+    name: The Financial Academy
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17966
+    official_website: http://www.fa.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - The Financial Academy
+  - الاكاديمية المالية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: sama_open_data_api
+    reason: SAMA financial open data API.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

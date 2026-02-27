@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17513
+slug: 17513-human-resources-development-fund
+contrib_file_name: human-resources-development-fund.yaml
+is_ministry: false
+category_ids:
+- '18224'
+category_names:
+- Development Funds and Banks
+- الصناديق
+locales:
+  ar:
+    name: صندوق تنمية الموارد البشرية
+    category_id: '18224'
+    category_name: الصناديق
+    detail_url: https://www.my.gov.sa/ar/agencies/17513
+    official_website: https://www.hrdf.org.sa/
+  en:
+    name: Human Resources Development Fund
+    category_id: '18224'
+    category_name: Development Funds and Banks
+    detail_url: https://www.my.gov.sa/en/agencies/17513
+    official_website: https://www.hrdf.org.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Human Resources Development Fund
+  - صندوق تنمية الموارد البشرية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

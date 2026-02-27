@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18236
+slug: 18236-theater-and-performing-arts-commission
+contrib_file_name: theater-and-performing-arts-commission.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: هيئة المسرح والفنون الأدائية
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/18236
+    official_website: https://performingarts.moc.gov.sa/en
+  en:
+    name: Theater and Performing Arts Commission
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/18236
+    official_website: https://performingarts.moc.gov.sa/en
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Theater and Performing Arts Commission
+  - هيئة المسرح والفنون الأدائية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

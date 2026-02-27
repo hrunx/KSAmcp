@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17822
+slug: 17822-nuclear-and-radiological-regulatory-commission
+contrib_file_name: nuclear-and-radiological-regulatory-commission.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: هيئة الرقابة النووية والإشعاعية
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17822
+    official_website: https://nrrc.gov.sa/
+  en:
+    name: Nuclear and Radiological Regulatory Commission
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17822
+    official_website: https://nrrc.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Nuclear and Radiological Regulatory Commission
+  - هيئة الرقابة النووية والإشعاعية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

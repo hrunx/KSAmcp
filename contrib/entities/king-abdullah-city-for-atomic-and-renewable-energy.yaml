@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17540
+slug: 17540-king-abdullah-city-for-atomic-and-renewable-energy
+contrib_file_name: king-abdullah-city-for-atomic-and-renewable-energy.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: مدينة الملك عبدالله للطاقة الذرية والمتجددة
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17540
+    official_website: https://www.kacare.gov.sa/en/Pages/default.aspx
+  en:
+    name: King Abdullah City for Atomic and Renewable Energy
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17540
+    official_website: https://www.kacare.gov.sa/en/Pages/default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - King Abdullah City for Atomic and Renewable Energy
+  - مدينة الملك عبدالله للطاقة الذرية والمتجددة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

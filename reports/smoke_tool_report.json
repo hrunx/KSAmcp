@@ -1,0 +1,236 @@
+{
+  "generated_at_utc": "2026-02-27T05:25:02.753331+00:00",
+  "mcp_url": "http://ksa-opendata-mcp.localhost:8000/mcp/",
+  "summary": {
+    "tool_count": 10,
+    "passed": 10,
+    "failed": 0,
+    "status": "pass"
+  },
+  "tools": [
+    {
+      "tool": "list_sources",
+      "args": {},
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "count": 7,
+        "source_ids": [
+          "ksa_open_data_platform",
+          "shc_open_data_apis",
+          "moh_hdp_api",
+          "mcit_open_api",
+          "sama_open_data_api",
+          "cchi_odata",
+          "gastat_api"
+        ]
+      }
+    },
+    {
+      "tool": "list_publishers",
+      "args": {
+        "source_id": "ksa_open_data_platform",
+        "query": "",
+        "limit": 5
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "count": 5,
+        "sample": [
+          {
+            "id": "17909",
+            "name": "king-faisal-medical-city-for-southern-regions",
+            "title": "King Faisal Medical City for Southern Regions"
+          },
+          {
+            "id": "17606",
+            "name": "ministry-of-commerce",
+            "title": "Ministry of Commerce"
+          },
+          {
+            "id": "17597",
+            "name": "ministry-of-communications-and-information-technology",
+            "title": "Ministry of Communications and Information Technology"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "search_datasets",
+      "args": {
+        "source_id": "ksa_open_data_platform",
+        "query": "commerce",
+        "rows": 3,
+        "start": 0
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "count": 1,
+        "sample_dataset_ids": [
+          "fallback-17606"
+        ]
+      }
+    },
+    {
+      "tool": "get_dataset",
+      "args": {
+        "source_id": "ksa_open_data_platform",
+        "dataset_id_or_name": "17639-ministry-of-health"
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "id": "fallback-17639",
+        "title": "Ministry of Health Open Data Profile",
+        "publisher": "Ministry of Health",
+        "resource_count": 2,
+        "resource_ids": [
+          "fallback-resource-17639",
+          "fallback-detail-en-17639"
+        ]
+      }
+    },
+    {
+      "tool": "get_resource",
+      "args": {
+        "source_id": "ksa_open_data_platform",
+        "resource_id": "fallback-resource-17606"
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "id": "fallback-resource-17606",
+        "name": "official_website",
+        "format": "HTML",
+        "url": "https://mc.gov.sa/"
+      }
+    },
+    {
+      "tool": "preview_resource",
+      "args": {
+        "url": "https://hdp.moh.gov.sa/api/v1/Dataset/search/public?search=%D8%A7%D9%84%D8%B5%D8%AD%D8%A9&pageNumber=1&pageSize=2",
+        "rows": 2
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "url": "https://hdp.moh.gov.sa/api/v1/Dataset/search/public?search=%D8%A7%D9%84%D8%B5%D8%AD%D8%A9&pageNumber=1&pageSize=2",
+        "format_guess": "json",
+        "preview_type": "json",
+        "preview_shape": "object"
+      }
+    },
+    {
+      "tool": "publisher_summary",
+      "args": {
+        "source_id": "ksa_open_data_platform",
+        "publisher": "ministry-of-commerce",
+        "sample_rows": 20
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "publisher": "ministry-of-commerce",
+        "total_datasets": 1,
+        "top_formats": [
+          [
+            "html",
+            2
+          ]
+        ],
+        "top_tags": [
+          [
+            "fallback",
+            1
+          ],
+          [
+            "ministry",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "tool": "datastore_search",
+      "args": {
+        "source_id": "ksa_open_data_platform",
+        "resource_id": "fallback-resource-17606",
+        "limit": 3,
+        "offset": 0
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "resource_id": "fallback-resource-17606",
+        "record_count": 1,
+        "sample_record": {
+          "slug": "17606-ministry-of-commerce",
+          "name_ar": "وزارة التجارة",
+          "name_en": "Ministry of Commerce",
+          "entity_id": 17606,
+          "detail_url_ar": "https://www.my.gov.sa/ar/agencies/17606",
+          "detail_url_en": "https://www.my.gov.sa/en/agencies/17606",
+          "official_website": "https://mc.gov.sa/"
+        }
+      }
+    },
+    {
+      "tool": "call_source_endpoint",
+      "args": {
+        "source_id": "moh_hdp_api",
+        "endpoint": "dataset_search_public",
+        "params": {
+          "search": "الصحة",
+          "pageNumber": 1,
+          "pageSize": 2
+        }
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "code": 200,
+        "total_rows_count": 70,
+        "sample_dataset_ids": [
+          "71007a65-ba57-45db-98f6-b598d8418316",
+          "3458de24-a6ab-4b91-aa5f-b47c970618fd"
+        ],
+        "sample_dataset_names": [
+          "عدد زيارات مراكز وأقسام التأهيل الطبي بوزارة الصحة عام 2023م.",
+          " المستشفيات والأسرة بوزارة الصحة حسب المنطقة الصحية في الأعوام الخمسة الأخيرة"
+        ]
+      }
+    },
+    {
+      "tool": "memory_search",
+      "args": {
+        "query": "وزارة الصحة",
+        "limit": 3
+      },
+      "ok": true,
+      "error": null,
+      "evidence": {
+        "query": "وزارة الصحة",
+        "match_count": 3,
+        "top_tools": [
+          "call_source_endpoint",
+          "call_source_endpoint",
+          "list_publishers"
+        ]
+      }
+    }
+  ],
+  "listed_tools": [
+    "list_sources",
+    "list_publishers",
+    "search_datasets",
+    "get_dataset",
+    "get_resource",
+    "preview_resource",
+    "publisher_summary",
+    "datastore_search",
+    "call_source_endpoint",
+    "memory_search"
+  ]
+}

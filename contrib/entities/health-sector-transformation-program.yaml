@@ -1,0 +1,48 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17948
+slug: 17948-health-sector-transformation-program
+contrib_file_name: health-sector-transformation-program.yaml
+is_ministry: false
+category_ids:
+- '19574'
+category_names:
+- Programs
+- البرامج
+locales:
+  ar:
+    name: برنامج تحول القطاع الصحي
+    category_id: '19574'
+    category_name: البرامج
+    detail_url: https://www.my.gov.sa/ar/agencies/17948
+    official_website: https://www.vision2030.gov.sa/ar/explore/programs/health-sector-transformation-program
+  en:
+    name: Health Sector Transformation Program
+    category_id: '19574'
+    category_name: Programs
+    detail_url: https://www.my.gov.sa/en/agencies/17948
+    official_website: https://www.vision2030.gov.sa/ar/explore/programs/health-sector-transformation-program
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Health Sector Transformation Program
+  - برنامج تحول القطاع الصحي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: moh_hdp_api
+    reason: MOH Health Data Platform public API.
+  - source_id: shc_open_data_apis
+    reason: Saudi Health Council open data endpoints.
+  - source_id: cchi_odata
+    reason: CCHI health insurance OData source.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

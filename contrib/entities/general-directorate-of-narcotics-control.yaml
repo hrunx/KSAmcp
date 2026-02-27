@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17378
+slug: 17378-general-directorate-of-narcotics-control
+contrib_file_name: general-directorate-of-narcotics-control.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: المديرية العامة لمكافحة المخدرات
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17378
+    official_website: https://www.moi.gov.sa/wps/portal/Home/sectors/narcoticscontrol/%21ut/p/z1/jY9BDoIwEEXPwglm2gKF5Ui0bSDBagrYjemKkCgaYzy_ys4FyOx-8t7PH_DQgR_Da-jDc7iN4fLJJ5-e0cSxZjEvVeI2SNaWTc63DI2EdgJyqwqtvwCjFMlIXqNJmDIc_Bq_UKRjWSFmlUrQkHaH3AqBJNb5OHOEK_15wC_Xt-AnZOmDfx3-dy
+  en:
+    name: General Directorate of Narcotics Control
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17378
+    official_website: https://www.moi.gov.sa/wps/portal/Home/sectors/narcoticscontrol/%21ut/p/z1/jY9BDoIwEEXPwglm2gKF5Ui0bSDBagrYjemKkCgaYzy_ys4FyOx-8t7PH_DQgR_Da-jDc7iN4fLJJ5-e0cSxZjEvVeI2SNaWTc63DI2EdgJyqwqtvwCjFMlIXqNJmDIc_Bq_UKRjWSFmlUrQkHaH3AqBJNb5OHOEK_15wC_Xt-AnZOmDfx3-dy
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - General Directorate of Narcotics Control
+  - المديرية العامة لمكافحة المخدرات
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

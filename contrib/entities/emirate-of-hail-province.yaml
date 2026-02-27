@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17246
+slug: 17246-emirate-of-hail-province
+contrib_file_name: emirate-of-hail-province.yaml
+is_ministry: false
+category_ids:
+- '17471'
+category_names:
+- Emirates
+- الإمارات
+locales:
+  ar:
+    name: إمارة منطقة حائل
+    category_id: '17471'
+    category_name: الإمارات
+    detail_url: https://www.my.gov.sa/ar/agencies/17246
+    official_website: https://www.hail.gov.sa/ar
+  en:
+    name: Emirate Of Hail Province
+    category_id: '17471'
+    category_name: Emirates
+    detail_url: https://www.my.gov.sa/en/agencies/17246
+    official_website: https://www.hail.gov.sa/ar
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Emirate Of Hail Province
+  - إمارة منطقة حائل
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

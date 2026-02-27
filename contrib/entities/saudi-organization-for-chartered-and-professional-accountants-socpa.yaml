@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17690
+slug: 17690-saudi-organization-for-chartered-and-professional-accountants-socpa
+contrib_file_name: saudi-organization-for-chartered-and-professional-accountants-socpa.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: الهيئة السعودية للمراجعين و المحاسبين
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/17690
+    official_website: https://socpa.org.sa/
+  en:
+    name: Saudi Organization for Chartered and Professional Accountants (SOCPA)
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/17690
+    official_website: https://socpa.org.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Saudi Organization for Chartered and Professional Accountants (SOCPA)
+  - الهيئة السعودية للمراجعين و المحاسبين
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

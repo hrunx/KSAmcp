@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17519
+slug: 17519-political-and-security-affairs-council
+contrib_file_name: political-and-security-affairs-council.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: مجلس الشؤون السياسية والأمنية
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17519
+    official_website: http://10.1.61.83/wps/portal/snp/agencies/agencyDetails/%21ut/p/z1/vVNNT-MwEP0te9ij5ZnYzscxLVCIBFmI0ja5VInjFKONE4K3hX-_SVUBFQuR9oDly8y8-Xh-Y5rTNc1NsdPbwurWFL8HO8vdTfTL5xgCxj6iC7fzwD-7wYgBAF0dAHByQpjdObMhHKJH88_D5_FEPszxf_LfQw_5X8y_pDnNZdMZqyuauVBBXUtO
+  en:
+    name: Political and Security Affairs Council
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17519
+    official_website: http://10.1.61.83/wps/portal/snp/agencies/agencyDetails/%21ut/p/z1/vVNNT-MwEP0te9ij5ZnYzscxLVCIBFmI0ja5VInjFKONE4K3hX-_SVUBFQuR9oDly8y8-Xh-Y5rTNc1NsdPbwurWFL8HO8vdTfTL5xgCxj6iC7fzwD-7wYgBAF0dAHByQpjdObMhHKJH88_D5_FEPszxf_LfQw_5X8y_pDnNZdMZqyuauVBBXUtO
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Political and Security Affairs Council
+  - مجلس الشؤون السياسية والأمنية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

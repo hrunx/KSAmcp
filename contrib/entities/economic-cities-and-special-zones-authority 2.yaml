@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17669
+slug: 17669-economic-cities-and-special-zones-authority
+contrib_file_name: economic-cities-and-special-zones-authority.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: هيئة المدن والمناطق الاقتصادية الخاصة
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17669
+    official_website: http://eca.gov.sa/webcenter/faces/oracle/webcenter/page/scopedMD/s8bba98ff_4cbb_40b8_beee_296c916a23ed/businessRolePages/Page52.jspx?wc_contextURL=%2Fspaces&_adf_ctrl-state=by1m1s1jp_4&_afrLoop=15182293052860594
+  en:
+    name: Economic Cities and Special Zones Authority
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17669
+    official_website: http://eca.gov.sa/webcenter/faces/oracle/webcenter/page/scopedMD/s8bba98ff_4cbb_40b8_beee_296c916a23ed/businessRolePages/Page52.jspx?wc_contextURL=%2Fspaces&_adf_ctrl-state=by1m1s1jp_4&_afrLoop=15182293052860594
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Economic Cities and Special Zones Authority
+  - هيئة المدن والمناطق الاقتصادية الخاصة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: gastat_api
+    reason: GASTAT statistical indicators.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

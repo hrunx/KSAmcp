@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17702
+slug: 17702-university-of-hafr-al-batin
+contrib_file_name: university-of-hafr-al-batin.yaml
+is_ministry: false
+category_ids:
+- '17963'
+category_names:
+- Universities
+- الجامعات
+locales:
+  ar:
+    name: جامعة حفر الباطن
+    category_id: '17963'
+    category_name: الجامعات
+    detail_url: https://www.my.gov.sa/ar/agencies/17702
+    official_website: https://www.uhb.edu.sa/Pages/Home.aspx
+  en:
+    name: University of Hafr Al Batin
+    category_id: '17963'
+    category_name: Universities
+    detail_url: https://www.my.gov.sa/en/agencies/17702
+    official_website: https://www.uhb.edu.sa/Pages/Home.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - University of Hafr Al Batin
+  - جامعة حفر الباطن
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17552
+slug: 17552-general-authority-for-statistics
+contrib_file_name: general-authority-for-statistics.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: الهيئة العامة للإحصاء
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/17552
+    official_website: https://www.stats.gov.sa
+  en:
+    name: General Authority for Statistics
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/17552
+    official_website: https://www.stats.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - General Authority for Statistics
+  - الهيئة العامة للإحصاء
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: gastat_api
+    reason: GASTAT statistical indicators.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

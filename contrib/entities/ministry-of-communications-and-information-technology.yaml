@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17597
+slug: 17597-ministry-of-communications-and-information-technology
+contrib_file_name: ministry-of-communications-and-information-technology.yaml
+is_ministry: true
+category_ids:
+- '17489'
+category_names:
+- Ministries
+- الوزارات
+locales:
+  ar:
+    name: وزارة الاتصالات وتقنية المعلومات
+    category_id: '17489'
+    category_name: الوزارات
+    detail_url: https://www.my.gov.sa/ar/agencies/17597
+    official_website: https://www.mcit.gov.sa/en/node
+  en:
+    name: Ministry of Communications and Information Technology
+    category_id: '17489'
+    category_name: Ministries
+    detail_url: https://www.my.gov.sa/en/agencies/17597
+    official_website: https://www.mcit.gov.sa/en/node
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Ministry of Communications and Information Technology
+  - وزارة الاتصالات وتقنية المعلومات
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: mcit_open_api
+    reason: MCIT telecom and digital indicators API.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

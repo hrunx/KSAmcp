@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18281
+slug: 18281-strategic-office-for-developing-the-northern-borders-region
+contrib_file_name: strategic-office-for-developing-the-northern-borders-region.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: المكتب الاستراتيجي لتطوير منطقة الحدود الشمالية
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/18281
+    official_website: null
+  en:
+    name: Strategic Office for Developing the Northern Borders Region
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/18281
+    official_website: null
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Strategic Office for Developing the Northern Borders Region
+  - المكتب الاستراتيجي لتطوير منطقة الحدود الشمالية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: sama_open_data_api
+    reason: SAMA financial open data API.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

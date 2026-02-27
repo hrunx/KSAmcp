@@ -1,0 +1,48 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18170
+slug: 18170-national-council-of-occupational-safety-and-health
+contrib_file_name: national-council-of-occupational-safety-and-health.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: المجلس الوطني للسلامة والصحة المهنية
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/18170
+    official_website: null
+  en:
+    name: National Council of Occupational Safety and Health
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/18170
+    official_website: null
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - National Council of Occupational Safety and Health
+  - المجلس الوطني للسلامة والصحة المهنية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: moh_hdp_api
+    reason: MOH Health Data Platform public API.
+  - source_id: shc_open_data_apis
+    reason: Saudi Health Council open data endpoints.
+  - source_id: cchi_odata
+    reason: CCHI health insurance OData source.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

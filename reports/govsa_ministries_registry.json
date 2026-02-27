@@ -1,0 +1,935 @@
+{
+  "source": {
+    "name": "GOV.SA Agencies Directory",
+    "url_en": "https://www.my.gov.sa/en/agencies",
+    "url_ar": "https://www.my.gov.sa/ar/agencies",
+    "ministry_taxonomy_id": "17489",
+    "generated_at_utc": "2026-02-27T03:31:48.586661+00:00"
+  },
+  "stats": {
+    "official_total_rows_reported": 363,
+    "raw_rows_collected": 1452,
+    "unique_entity_ids": 360,
+    "ministry_entity_ids": 27
+  },
+  "ministries": [
+    {
+      "entity_id": 17330,
+      "slug": "17330-ministry-of-sports",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-sports.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-sports.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الرياضة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.gsa.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17330"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Sports",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.gsa.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17330"
+        }
+      }
+    },
+    {
+      "entity_id": 17342,
+      "slug": "17342-ministry-of-national-guard-health-affairs-mngha",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 4,
+      "contrib_entity_file": "contrib/entities/ministry-of-national-guard-health-affairs-mngha.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-national-guard-health-affairs-mngha.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "الشؤون الصحية بوزارة الحرس الوطني",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "http://www.mngha.med.sa/English/Pages/Default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17342"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of National Guard Health Affairs (MNGHA)",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "http://www.mngha.med.sa/English/Pages/Default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17342"
+        }
+      }
+    },
+    {
+      "entity_id": 17396,
+      "slug": "17396-ministry-of-investment",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-investment.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-investment.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الاستثمار",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.misa.gov.sa/en",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17396"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Investment",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.misa.gov.sa/en",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17396"
+        }
+      }
+    },
+    {
+      "entity_id": 17399,
+      "slug": "17399-ministry-of-tourism",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-tourism.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-tourism.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة السياحة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://mt.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17399"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Tourism",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://mt.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17399"
+        }
+      }
+    },
+    {
+      "entity_id": 17597,
+      "slug": "17597-ministry-of-communications-and-information-technology",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-communications-and-information-technology.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-communications-and-information-technology.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الاتصالات وتقنية المعلومات",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.mcit.gov.sa/en/node",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17597"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Communications and Information Technology",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.mcit.gov.sa/en/node",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17597"
+        }
+      }
+    },
+    {
+      "entity_id": 17600,
+      "slug": "17600-ministry-of-economy-and-planning",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-economy-and-planning.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-economy-and-planning.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الاقتصاد والتخطيط",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.mep.gov.sa/en",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17600"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Economy and Planning",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.mep.gov.sa/en",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17600"
+        }
+      }
+    },
+    {
+      "entity_id": 17603,
+      "slug": "17603-ministry-of-energy",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-energy.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-energy.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الطاقة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moenergy.gov.sa/ar",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17603"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Energy",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moenergy.gov.sa/ar",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17603"
+        }
+      }
+    },
+    {
+      "entity_id": 17606,
+      "slug": "17606-ministry-of-commerce",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-commerce.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-commerce.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة التجارة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://mc.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17606"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Commerce",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://mc.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17606"
+        }
+      }
+    },
+    {
+      "entity_id": 17609,
+      "slug": "17609-ministry-of-education",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 3,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-education.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-education.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة التعليم",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moe.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17609"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry Of Education",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moe.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17609"
+        }
+      }
+    },
+    {
+      "entity_id": 17612,
+      "slug": "17612-ministry-of-media",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-media.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-media.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الإعلام",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.media.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17612"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Media",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.media.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17612"
+        }
+      }
+    },
+    {
+      "entity_id": 17615,
+      "slug": "17615-ministry-of-haj-and-umra",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-haj-and-umra.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-haj-and-umra.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الحج والعمرة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.haj.gov.sa/Home",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17615"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Haj and Umra",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.haj.gov.sa/Home",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17615"
+        }
+      }
+    },
+    {
+      "entity_id": 17618,
+      "slug": "17618-ministry-of-national-guard",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-national-guard.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-national-guard.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الحرس الوطني",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "http://www.sang.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17618"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of National Guard",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "http://www.sang.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17618"
+        }
+      }
+    },
+    {
+      "entity_id": 17621,
+      "slug": "17621-ministry-of-foreign-affairs",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-foreign-affairs.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-foreign-affairs.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الخارجية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.mofa.gov.sa/ar/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17621"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Foreign Affairs",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.mofa.gov.sa/ar/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17621"
+        }
+      }
+    },
+    {
+      "entity_id": 17624,
+      "slug": "17624-ministry-of-interior",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-interior.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-interior.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الداخلية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "http://www.moi.gov.sa",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17624"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Interior",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "http://www.moi.gov.sa",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17624"
+        }
+      }
+    },
+    {
+      "entity_id": 17630,
+      "slug": "17630-ministry-of-environment-water-and-agriculture",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-environment-water-and-agriculture.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-environment-water-and-agriculture.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة البيئة والمياه والزراعة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.mewa.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17630"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Environment, Water and Agriculture",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.mewa.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17630"
+        }
+      }
+    },
+    {
+      "entity_id": 17633,
+      "slug": "17633-ministry-of-islamic-affairs-dawah-and-guidance",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-islamic-affairs-dawah-and-guidance.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-islamic-affairs-dawah-and-guidance.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الشؤون الإسلامية والدعوة والإرشاد",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moia.gov.sa",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17633"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Islamic Affairs, Dawah and Guidance",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moia.gov.sa",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17633"
+        }
+      }
+    },
+    {
+      "entity_id": 17636,
+      "slug": "17636-ministry-of-municipalities-and-housing",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 3,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-municipalities-and-housing.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-municipalities-and-housing.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة البلديات والإسكان",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "http://www.momra.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17636"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Municipalities and Housing",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "http://www.momra.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17636"
+        }
+      }
+    },
+    {
+      "entity_id": 17639,
+      "slug": "17639-ministry-of-health",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-health.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-health.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الصحة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moh.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17639"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Health",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moh.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17639"
+        }
+      }
+    },
+    {
+      "entity_id": 17642,
+      "slug": "17642-ministry-of-justice",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-justice.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-justice.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة العدل",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moj.gov.sa/ar/Ministry/Pages/AboutUs.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17642"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry Of Justice",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moj.gov.sa/ar/Ministry/Pages/AboutUs.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17642"
+        }
+      }
+    },
+    {
+      "entity_id": 17645,
+      "slug": "17645-ministry-of-finance",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-finance.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-finance.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة المالية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.mof.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17645"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Finance",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.mof.gov.sa/en/Pages/default.aspx",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17645"
+        }
+      }
+    },
+    {
+      "entity_id": 17648,
+      "slug": "17648-ministry-of-transport-and-logistics-services",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-transport-and-logistics-services.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-transport-and-logistics-services.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة النقل والخدمات اللوجستية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.mot.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17648"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Transport and Logistics Services",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.mot.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17648"
+        }
+      }
+    },
+    {
+      "entity_id": 17651,
+      "slug": "17651-ministry-of-industry-and-mineral-resources",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-industry-and-mineral-resources.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-industry-and-mineral-resources.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الصناعة والثروة المعدنية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://mim.gov.sa",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17651"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Industry and Mineral Resources",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://mim.gov.sa",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17651"
+        }
+      }
+    },
+    {
+      "entity_id": 17792,
+      "slug": "17792-ministry-of-culture",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/ministry-of-culture.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-culture.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الثقافة",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moc.gov.sa/en",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17792"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Culture",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moc.gov.sa/en",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17792"
+        }
+      }
+    },
+    {
+      "entity_id": 17900,
+      "slug": "17900-ministry-of-human-resource-and-social-development",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/ministry-of-human-resource-and-social-development.yaml",
+      "contrib_ministry_file": "contrib/ministries/ministry-of-human-resource-and-social-development.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "وزارة الموارد البشرية والتنمية الاجتماعية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.hrsd.gov.sa",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17900"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Ministry of Human Resource and Social Development",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.hrsd.gov.sa",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17900"
+        }
+      }
+    },
+    {
+      "entity_id": 17909,
+      "slug": "17909-king-faisal-medical-city-for-southern-regions",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 2,
+      "strategy_count": 2,
+      "contrib_entity_file": "contrib/entities/king-faisal-medical-city-for-southern-regions.yaml",
+      "contrib_ministry_file": "contrib/ministries/king-faisal-medical-city-for-southern-regions.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "مدينة الملك فيصل الطبية لخدمة مناطق المملكة الجنوبية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://kfmcity.med.sa",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/17909"
+        },
+        "en": {
+          "locale": "en",
+          "name": "King Faisal Medical City for Southern Regions",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://kfmcity.med.sa",
+          "detail_url": "https://www.my.gov.sa/en/agencies/17909"
+        }
+      }
+    },
+    {
+      "entity_id": 18116,
+      "slug": "18116-special-forces-for-environmental-security",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 4,
+      "strategy_count": 4,
+      "contrib_entity_file": "contrib/entities/special-forces-for-environmental-security.yaml",
+      "contrib_ministry_file": "contrib/ministries/special-forces-for-environmental-security.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "القوات الخاصة للأمن البيئي",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.moi.gov.sa/wps/vanityurl/ar/environmentalsecurity",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/18116"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Special Forces For Environmental Security",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.moi.gov.sa/wps/vanityurl/ar/environmentalsecurity",
+          "detail_url": "https://www.my.gov.sa/en/agencies/18116"
+        }
+      }
+    },
+    {
+      "entity_id": 18275,
+      "slug": "18275-prince-saud-al-faisal-institute-for-diplomatic-studies",
+      "is_ministry": true,
+      "category_ids": [
+        "17489"
+      ],
+      "category_names": [
+        "Ministries",
+        "الوزارات"
+      ],
+      "observed_count": 6,
+      "strategy_count": 3,
+      "contrib_entity_file": "contrib/entities/prince-saud-al-faisal-institute-for-diplomatic-studies.yaml",
+      "contrib_ministry_file": "contrib/ministries/prince-saud-al-faisal-institute-for-diplomatic-studies.yaml",
+      "locales": {
+        "ar": {
+          "locale": "ar",
+          "name": "معهد الامير سعود الفيصل للدراسات الدبلوماسية",
+          "category_id": "17489",
+          "category_name": "الوزارات",
+          "official_website": "https://www.ids.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/ar/agencies/18275"
+        },
+        "en": {
+          "locale": "en",
+          "name": "Prince Saud Al Faisal Institute for Diplomatic Studies",
+          "category_id": "17489",
+          "category_name": "Ministries",
+          "official_website": "https://www.ids.gov.sa/",
+          "detail_url": "https://www.my.gov.sa/en/agencies/18275"
+        }
+      }
+    }
+  ]
+}

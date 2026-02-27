@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18014
+slug: 18014-the-small-and-medium-enterprise-bank
+contrib_file_name: the-small-and-medium-enterprise-bank.yaml
+is_ministry: false
+category_ids:
+- '18224'
+category_names:
+- Development Funds and Banks
+- الصناديق
+locales:
+  ar:
+    name: بنك المنشآت الصغيرة والمتوسطة
+    category_id: '18224'
+    category_name: الصناديق
+    detail_url: https://www.my.gov.sa/ar/agencies/18014
+    official_website: https://smebank.gov.sa/
+  en:
+    name: The Small and Medium Enterprise Bank
+    category_id: '18224'
+    category_name: Development Funds and Banks
+    detail_url: https://www.my.gov.sa/en/agencies/18014
+    official_website: https://smebank.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - The Small and Medium Enterprise Bank
+  - بنك المنشآت الصغيرة والمتوسطة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: sama_open_data_api
+    reason: SAMA financial open data API.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

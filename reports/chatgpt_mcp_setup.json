@@ -1,0 +1,10 @@
+{
+  "name": "KSA Open Data MCP",
+  "description": "National Saudi Open Data MCP with FastAPI and vector memory.",
+  "icon": "http://ksa-opendata-mcp.localhost:8000/assets/ksa-mcp-icon-128.jpg",
+  "mcp_server_url": "http://ksa-opendata-mcp.localhost:8000/mcp/",
+  "authentication": "No auth (public mode)",
+  "oauth": "Not required",
+  "fastapi_docs_url": "http://ksa-opendata-mcp.localhost:8000/docs",
+  "fastapi_tools_url": "http://ksa-opendata-mcp.localhost:8000/api/tools"
+}

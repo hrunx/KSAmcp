@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17480
+slug: 17480-king-abdulaziz-foundation-for-research-and-archives-darah
+contrib_file_name: king-abdulaziz-foundation-for-research-and-archives-darah.yaml
+is_ministry: false
+category_ids:
+- '17798'
+category_names:
+- Organizations
+- المؤسسات
+locales:
+  ar:
+    name: دارة الملك عبدالعزيز
+    category_id: '17798'
+    category_name: المؤسسات
+    detail_url: https://www.my.gov.sa/ar/agencies/17480
+    official_website: https://www.darah.gov.sa
+  en:
+    name: King Abdulaziz Foundation for Research and Archives (Darah)
+    category_id: '17798'
+    category_name: Organizations
+    detail_url: https://www.my.gov.sa/en/agencies/17480
+    official_website: https://www.darah.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - King Abdulaziz Foundation for Research and Archives (Darah)
+  - دارة الملك عبدالعزيز
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

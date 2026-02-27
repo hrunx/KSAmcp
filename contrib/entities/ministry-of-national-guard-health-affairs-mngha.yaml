@@ -1,0 +1,48 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17342
+slug: 17342-ministry-of-national-guard-health-affairs-mngha
+contrib_file_name: ministry-of-national-guard-health-affairs-mngha.yaml
+is_ministry: true
+category_ids:
+- '17489'
+category_names:
+- Ministries
+- الوزارات
+locales:
+  ar:
+    name: الشؤون الصحية بوزارة الحرس الوطني
+    category_id: '17489'
+    category_name: الوزارات
+    detail_url: https://www.my.gov.sa/ar/agencies/17342
+    official_website: http://www.mngha.med.sa/English/Pages/Default.aspx
+  en:
+    name: Ministry of National Guard Health Affairs (MNGHA)
+    category_id: '17489'
+    category_name: Ministries
+    detail_url: https://www.my.gov.sa/en/agencies/17342
+    official_website: http://www.mngha.med.sa/English/Pages/Default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Ministry of National Guard Health Affairs (MNGHA)
+  - الشؤون الصحية بوزارة الحرس الوطني
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: moh_hdp_api
+    reason: MOH Health Data Platform public API.
+  - source_id: shc_open_data_apis
+    reason: Saudi Health Council open data endpoints.
+  - source_id: cchi_odata
+    reason: CCHI health insurance OData source.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

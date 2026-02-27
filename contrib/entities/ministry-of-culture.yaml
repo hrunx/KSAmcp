@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17792
+slug: 17792-ministry-of-culture
+contrib_file_name: ministry-of-culture.yaml
+is_ministry: true
+category_ids:
+- '17489'
+category_names:
+- Ministries
+- الوزارات
+locales:
+  ar:
+    name: وزارة الثقافة
+    category_id: '17489'
+    category_name: الوزارات
+    detail_url: https://www.my.gov.sa/ar/agencies/17792
+    official_website: https://www.moc.gov.sa/en
+  en:
+    name: Ministry of Culture
+    category_id: '17489'
+    category_name: Ministries
+    detail_url: https://www.my.gov.sa/en/agencies/17792
+    official_website: https://www.moc.gov.sa/en
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Ministry of Culture
+  - وزارة الثقافة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

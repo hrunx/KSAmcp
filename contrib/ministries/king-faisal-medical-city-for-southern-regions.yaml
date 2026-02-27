@@ -1,0 +1,25 @@
+# Generated ministry-specific scaffold from official GOV.SA data.
+# Keep this file aligned with the corresponding contrib/entities record.
+entity_id: 17909
+contrib_entity_file: ../entities/king-faisal-medical-city-for-southern-regions.yaml
+name:
+  en: King Faisal Medical City for Southern Regions
+  ar: مدينة الملك فيصل الطبية لخدمة مناطق المملكة الجنوبية
+official_open_data:
+  core_catalog_source: ksa_open_data_platform
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: moh_hdp_api
+    reason: MOH Health Data Platform public API.
+  - source_id: shc_open_data_apis
+    reason: Saudi Health Council open data endpoints.
+  - source_id: cchi_odata
+    reason: CCHI health insurance OData source.
+  source_notes: Validate publisher mapping in CKAN and then bind ministry-specific
+    API sources.
+contribution_checklist:
+- Map ministry publisher identifier(s) in CKAN.
+- Validate available resources and formats.
+- Attach any ministry-specific API source (if available).
+- Add unit and integration tests.

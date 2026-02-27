@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18086
+slug: 18086-sports-boulevard-foundation
+contrib_file_name: sports-boulevard-foundation.yaml
+is_ministry: false
+category_ids:
+- '17798'
+category_names:
+- Organizations
+- المؤسسات
+locales:
+  ar:
+    name: مؤسسة المسار الرياضي
+    category_id: '17798'
+    category_name: المؤسسات
+    detail_url: https://www.my.gov.sa/ar/agencies/18086
+    official_website: https://sportsboulevard.sa/
+  en:
+    name: Sports Boulevard Foundation
+    category_id: '17798'
+    category_name: Organizations
+    detail_url: https://www.my.gov.sa/en/agencies/18086
+    official_website: https://sportsboulevard.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Sports Boulevard Foundation
+  - مؤسسة المسار الرياضي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

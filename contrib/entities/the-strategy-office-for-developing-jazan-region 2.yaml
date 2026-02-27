@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18161
+slug: 18161-the-strategy-office-for-developing-jazan-region
+contrib_file_name: the-strategy-office-for-developing-jazan-region.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: المكتب الاستراتيجي لتطوير منطقة جازان
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/18161
+    official_website: https://www.jso.gov.sa/
+  en:
+    name: The Strategy Office for Developing Jazan Region
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/18161
+    official_website: https://www.jso.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - The Strategy Office for Developing Jazan Region
+  - المكتب الاستراتيجي لتطوير منطقة جازان
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

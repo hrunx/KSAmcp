@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17963
+slug: 17963-bankruptcy-commission
+contrib_file_name: bankruptcy-commission.yaml
+is_ministry: false
+category_ids:
+- '17528'
+category_names:
+- Municipalities
+- الأمانات
+locales:
+  ar:
+    name: لجنة الإفلاس
+    category_id: '17528'
+    category_name: الأمانات
+    detail_url: https://www.my.gov.sa/ar/agencies/17963
+    official_website: https://bankruptcy.gov.sa
+  en:
+    name: Bankruptcy Commission
+    category_id: '17528'
+    category_name: Municipalities
+    detail_url: https://www.my.gov.sa/en/agencies/17963
+    official_website: https://bankruptcy.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Bankruptcy Commission
+  - لجنة الإفلاس
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: sama_open_data_api
+    reason: SAMA financial open data API.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

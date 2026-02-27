@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17915
+slug: 17915-decision-support-center
+contrib_file_name: decision-support-center.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: مركز دعم اتخاذ القرار
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17915
+    official_website: http://10.1.61.83/wps/portal/snp/agencies/agencyDetails/%21ut/p/z1/vVNNT-MwEP0te9ij5ZnYzscxLVCIBFmI0ja5VInjFKONE4K3hX-_SVUBFQuR9oDly8y8-Xh-Y5rTNc1NsdPbwurWFL8HO8vdTfTL5xgCxj6iC7fzwD-7wYgBAF0dAHByQpjdObMhHKJH88_D5_FEPszxf_LfQw_5X8y_pDnNZdMZqyuauVBBXUtO
+  en:
+    name: Decision Support Center
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17915
+    official_website: http://10.1.61.83/wps/portal/snp/agencies/agencyDetails/%21ut/p/z1/vVNNT-MwEP0te9ij5ZnYzscxLVCIBFmI0ja5VInjFKONE4K3hX-_SVUBFQuR9oDly8y8-Xh-Y5rTNc1NsdPbwurWFL8HO8vdTfTL5xgCxj6iC7fzwD-7wYgBAF0dAHByQpjdObMhHKJH88_D5_FEPszxf_LfQw_5X8y_pDnNZdMZqyuauVBBXUtO
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Decision Support Center
+  - مركز دعم اتخاذ القرار
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

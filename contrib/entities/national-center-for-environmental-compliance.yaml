@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17918
+slug: 17918-national-center-for-environmental-compliance
+contrib_file_name: national-center-for-environmental-compliance.yaml
+is_ministry: false
+category_ids:
+- '17723'
+category_names:
+- Centers
+- المراكز
+locales:
+  ar:
+    name: المركز الوطني للرقابة على الإلتزام البيئي
+    category_id: '17723'
+    category_name: المراكز
+    detail_url: https://www.my.gov.sa/ar/agencies/17918
+    official_website: https://ncec.gov.sa/
+  en:
+    name: National Center for Environmental Compliance
+    category_id: '17723'
+    category_name: Centers
+    detail_url: https://www.my.gov.sa/en/agencies/17918
+    official_website: https://ncec.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - National Center for Environmental Compliance
+  - المركز الوطني للرقابة على الإلتزام البيئي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

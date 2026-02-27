@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17921
+slug: 17921-national-center-for-palms-and-dates
+contrib_file_name: national-center-for-palms-and-dates.yaml
+is_ministry: false
+category_ids:
+- '17723'
+category_names:
+- Centers
+- المراكز
+locales:
+  ar:
+    name: المركز الوطني للنخيل والتمور
+    category_id: '17723'
+    category_name: المراكز
+    detail_url: https://www.my.gov.sa/ar/agencies/17921
+    official_website: https://ncpd.gov.sa/
+  en:
+    name: National Center for Palms and Dates
+    category_id: '17723'
+    category_name: Centers
+    detail_url: https://www.my.gov.sa/en/agencies/17921
+    official_website: https://ncpd.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - National Center for Palms and Dates
+  - المركز الوطني للنخيل والتمور
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

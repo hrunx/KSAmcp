@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18059
+slug: 18059-alimony-fund
+contrib_file_name: alimony-fund.yaml
+is_ministry: false
+category_ids:
+- '18224'
+category_names:
+- Development Funds and Banks
+- الصناديق
+locales:
+  ar:
+    name: صندوق النفقة
+    category_id: '18224'
+    category_name: الصناديق
+    detail_url: https://www.my.gov.sa/ar/agencies/18059
+    official_website: https://nafaqah.sa/Home/Index
+  en:
+    name: Alimony Fund
+    category_id: '18224'
+    category_name: Development Funds and Banks
+    detail_url: https://www.my.gov.sa/en/agencies/18059
+    official_website: https://nafaqah.sa/Home/Index
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Alimony Fund
+  - صندوق النفقة
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

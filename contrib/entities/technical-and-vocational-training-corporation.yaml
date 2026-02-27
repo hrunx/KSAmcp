@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17357
+slug: 17357-technical-and-vocational-training-corporation
+contrib_file_name: technical-and-vocational-training-corporation.yaml
+is_ministry: false
+category_ids:
+- '17798'
+category_names:
+- Organizations
+- المؤسسات
+locales:
+  ar:
+    name: المؤسسة العامة للتدريب التقني والمهني
+    category_id: '17798'
+    category_name: المؤسسات
+    detail_url: https://www.my.gov.sa/ar/agencies/17357
+    official_website: https://tvtc.gov.sa
+  en:
+    name: Technical and Vocational Training Corporation
+    category_id: '17798'
+    category_name: Organizations
+    detail_url: https://www.my.gov.sa/en/agencies/17357
+    official_website: https://tvtc.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Technical and Vocational Training Corporation
+  - المؤسسة العامة للتدريب التقني والمهني
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

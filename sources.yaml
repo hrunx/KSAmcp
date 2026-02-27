@@ -1,0 +1,110 @@
+sources:
+  - id: ksa_open_data_platform
+    type: ckan
+    title: "Saudi Open Data Platform (National Data Bank)"
+    base_url: "https://open.data.gov.sa"
+    api_path: "/api/3/action"
+    dataset_web_url_template: "https://open.data.gov.sa/en/dataset/{name}"
+
+  - id: shc_open_data_apis
+    type: rest
+    title: "Saudi Health Council Open Data APIs"
+    base_url: "https://services.shc.gov.sa/CouncilAPIs/api/CouncilAPIs"
+    endpoints:
+      - name: council_decisions
+        method: GET
+        path: "/GetCouncilDecisions"
+        description: "Saudi Health Council decisions"
+      - name: budget_data
+        method: GET
+        path: "/BudgetData"
+        description: "Budget data"
+      - name: expenditure_data
+        method: GET
+        path: "/ExpenditureData"
+        description: "Expenditure data"
+      - name: tender_data
+        method: GET
+        path: "/TenderData"
+        description: "Tender data"
+      - name: total_employees
+        method: GET
+        path: "/TotalNumberOfEmployees"
+        description: "Total number of employees"
+
+  - id: moh_hdp_api
+    type: rest
+    title: "Ministry of Health Health Data Platform API"
+    base_url: "https://hdp.moh.gov.sa/api/v1"
+    endpoints:
+      - name: dataset_search_public
+        method: GET
+        path: "/Dataset/search/public"
+        query_params: ["search", "pageNumber", "pageSize", "OrderByDateAdded", "TopicId", "MostViewed", "tag"]
+        description: "Public MOH datasets listing and search"
+
+  - id: mcit_open_api
+    type: rest_api_key
+    title: "MCIT Open API"
+    base_url: "https://api.mcit.gov.sa"
+    auth:
+      header: "apiKey"
+      env: "MCIT_API_KEY"
+    endpoints:
+      - name: ftth_coverage
+        method: GET
+        path: "/api/ftthCoverage"
+        query_params: ["year"]
+        description: "Fiber to the Home Coverage in Saudi Arabia"
+      - name: web_coverage
+        method: GET
+        path: "/api/webCoverage"
+        query_params: ["year"]
+        description: "Wireless broadband coverage"
+      - name: number_of_digital_models
+        method: GET
+        path: "/api/numberOfDigitalModels"
+        query_params: ["year", "quarter"]
+        description: "Number of digital models by period"
+
+  - id: sama_open_data_api
+    type: rest
+    title: "SAMA Open Data Service"
+    base_url: "https://data.sama.gov.sa"
+    endpoints:
+      - name: payment_indicators
+        method: GET
+        path: "/api/paymentIndicators"
+        description: "Financial system payment indicator series"
+      - name: institution_counts
+        method: GET
+        path: "/api/financialInstitutions"
+        description: "Registered financial institutions and categories"
+
+  - id: cchi_odata
+    type: rest
+    title: "CCHI OData Open Data"
+    base_url: "https://opendata.cchi.gov.sa/odata"
+    endpoints:
+      - name: insurance_companies
+        method: GET
+        path: "/InsuranceCompanies"
+        description: "CCHI insurance company registry"
+      - name: claims_statistics
+        method: GET
+        path: "/ClaimsStatistics"
+        description: "Health insurance claims statistics"
+
+  - id: gastat_api
+    type: rest
+    title: "GASTAT Web APIs"
+    base_url: "https://api.stats.gov.sa"
+    endpoints:
+      - name: economic_indicators
+        method: GET
+        path: "/data/economic-indicators"
+        description: "High-level economic indicator time series"
+      - name: demographics
+        method: GET
+        path: "/data/demographics"
+        description: "Population and demographic snapshots"

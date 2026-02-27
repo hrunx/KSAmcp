@@ -1,0 +1,48 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17387
+slug: 17387-saudi-commission-for-health-specialties
+contrib_file_name: saudi-commission-for-health-specialties.yaml
+is_ministry: false
+category_ids:
+- '17456'
+category_names:
+- Other
+- اخرى
+locales:
+  ar:
+    name: الهيئة السعودية للتخصصات الصحية
+    category_id: '17456'
+    category_name: اخرى
+    detail_url: https://www.my.gov.sa/ar/agencies/17387
+    official_website: https://www.scfhs.org.sa/en/Pages/default.aspx
+  en:
+    name: Saudi Commission for Health Specialties
+    category_id: '17456'
+    category_name: Other
+    detail_url: https://www.my.gov.sa/en/agencies/17387
+    official_website: https://www.scfhs.org.sa/en/Pages/default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Saudi Commission for Health Specialties
+  - الهيئة السعودية للتخصصات الصحية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: moh_hdp_api
+    reason: MOH Health Data Platform public API.
+  - source_id: shc_open_data_apis
+    reason: Saudi Health Council open data endpoints.
+  - source_id: cchi_odata
+    reason: CCHI health insurance OData source.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

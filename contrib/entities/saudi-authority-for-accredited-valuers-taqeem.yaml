@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17750
+slug: 17750-saudi-authority-for-accredited-valuers-taqeem
+contrib_file_name: saudi-authority-for-accredited-valuers-taqeem.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: الهيئة السعودية للمقَيّمين المعتمدين (تقييم)
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/17750
+    official_website: https://www.taqeem.gov.sa/
+  en:
+    name: Saudi Authority for Accredited Valuers (Taqeem)
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/17750
+    official_website: https://www.taqeem.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Saudi Authority for Accredited Valuers (Taqeem)
+  - الهيئة السعودية للمقَيّمين المعتمدين (تقييم)
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

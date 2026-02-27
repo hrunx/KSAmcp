@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18080
+slug: 18080-national-center-for-social-studies-ncss
+contrib_file_name: national-center-for-social-studies-ncss.yaml
+is_ministry: false
+category_ids:
+- '17723'
+category_names:
+- Centers
+- المراكز
+locales:
+  ar:
+    name: المركز الوطني للدراسات والبحوث الاجتماعية
+    category_id: '17723'
+    category_name: المراكز
+    detail_url: https://www.my.gov.sa/ar/agencies/18080
+    official_website: https://ncss.gov.sa/
+  en:
+    name: National Center for Social Studies (NCSS)
+    category_id: '17723'
+    category_name: Centers
+    detail_url: https://www.my.gov.sa/en/agencies/18080
+    official_website: https://ncss.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - National Center for Social Studies (NCSS)
+  - المركز الوطني للدراسات والبحوث الاجتماعية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

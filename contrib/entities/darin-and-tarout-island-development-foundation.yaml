@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18287
+slug: 18287-darin-and-tarout-island-development-foundation
+contrib_file_name: darin-and-tarout-island-development-foundation.yaml
+is_ministry: false
+category_ids:
+- '17798'
+category_names:
+- Organizations
+- المؤسسات
+locales:
+  ar:
+    name: مؤسسة تطوير جزيرة دارين وتاروت
+    category_id: '17798'
+    category_name: المؤسسات
+    detail_url: https://www.my.gov.sa/ar/agencies/18287
+    official_website: https://my.gov.sa/ar/agencies/18287
+  en:
+    name: Darin and Tarout Island Development Foundation
+    category_id: '17798'
+    category_name: Organizations
+    detail_url: https://www.my.gov.sa/en/agencies/18287
+    official_website: https://my.gov.sa/ar/agencies/18287
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Darin and Tarout Island Development Foundation
+  - مؤسسة تطوير جزيرة دارين وتاروت
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

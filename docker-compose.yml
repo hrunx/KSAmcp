@@ -1,0 +1,48 @@
+services:
+  ksa-mcp-postgres:
+    image: pgvector/pgvector:pg16
+    container_name: ksa-mcp-postgres
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB:-ksa_mcp}
+      - POSTGRES_USER=${POSTGRES_USER:-ksa_mcp}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-ksa_mcp}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-ksa_mcp} -d ${POSTGRES_DB:-ksa_mcp}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - ksa_mcp_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  ksa-opendata-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ksa-opendata-mcp:latest
+    container_name: ksa-opendata-mcp
+    depends_on:
+      ksa-mcp-postgres:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - MCIT_API_KEY=${MCIT_API_KEY:-}
+      - KSA_MCP_SOURCES=${KSA_MCP_SOURCES:-sources.yaml}
+      - MCP_PUBLIC_BASE_URL=${MCP_PUBLIC_BASE_URL:-http://ksa-opendata-mcp.localhost:8000}
+      - MCP_API_KEY_REQUIRED=${MCP_API_KEY_REQUIRED:-false}
+      - DATABASE_URL=${DATABASE_URL:-postgresql://ksa_mcp:ksa_mcp@ksa-mcp-postgres:5432/ksa_mcp}
+      - VECTOR_MEMORY_ENABLED=${VECTOR_MEMORY_ENABLED:-true}
+      - VECTOR_MEMORY_TTL_SECONDS=${VECTOR_MEMORY_TTL_SECONDS:-604800}
+      - VECTOR_MEMORY_MAX_TEXT_CHARS=${VECTOR_MEMORY_MAX_TEXT_CHARS:-6000}
+      - EMBEDDING_MODEL_NAME=${EMBEDDING_MODEL_NAME:-arabic-hash-ngram-v1}
+      - EMBEDDING_DIM=${EMBEDDING_DIM:-256}
+      - MCP_SERVER_NAME=${MCP_SERVER_NAME:-KSA Open Data MCP}
+      - MCP_SERVER_DESCRIPTION=${MCP_SERVER_DESCRIPTION:-National Saudi Open Data MCP with FastAPI and vector memory.}
+      - MCP_ICON_URL=${MCP_ICON_URL:-http://ksa-opendata-mcp.localhost:8000/assets/ksa-mcp-icon-128.jpg}
+    restart: unless-stopped
+
+volumes:
+  ksa_mcp_pgdata:

@@ -1,0 +1,44 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17600
+slug: 17600-ministry-of-economy-and-planning
+contrib_file_name: ministry-of-economy-and-planning.yaml
+is_ministry: true
+category_ids:
+- '17489'
+category_names:
+- Ministries
+- الوزارات
+locales:
+  ar:
+    name: وزارة الاقتصاد والتخطيط
+    category_id: '17489'
+    category_name: الوزارات
+    detail_url: https://www.my.gov.sa/ar/agencies/17600
+    official_website: https://www.mep.gov.sa/en
+  en:
+    name: Ministry of Economy and Planning
+    category_id: '17489'
+    category_name: Ministries
+    detail_url: https://www.my.gov.sa/en/agencies/17600
+    official_website: https://www.mep.gov.sa/en
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Ministry of Economy and Planning
+  - وزارة الاقتصاد والتخطيط
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: gastat_api
+    reason: GASTAT statistical indicators.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

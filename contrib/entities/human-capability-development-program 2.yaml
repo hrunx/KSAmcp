@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18032
+slug: 18032-human-capability-development-program
+contrib_file_name: human-capability-development-program.yaml
+is_ministry: false
+category_ids:
+- '19574'
+category_names:
+- Programs
+- البرامج
+locales:
+  ar:
+    name: برنامج تنمية القدرات البشرية
+    category_id: '19574'
+    category_name: البرامج
+    detail_url: https://www.my.gov.sa/ar/agencies/18032
+    official_website: null
+  en:
+    name: Human Capability Development Program
+    category_id: '19574'
+    category_name: Programs
+    detail_url: https://www.my.gov.sa/en/agencies/18032
+    official_website: null
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Human Capability Development Program
+  - برنامج تنمية القدرات البشرية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

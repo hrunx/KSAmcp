@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 1149483
+slug: 1149483-legal-departments-support-program
+contrib_file_name: legal-departments-support-program.yaml
+is_ministry: false
+category_ids:
+- '19574'
+category_names:
+- Programs
+- البرامج
+locales:
+  ar:
+    name: برنامج دعم الإدارات القانونية
+    category_id: '19574'
+    category_name: البرامج
+    detail_url: https://www.my.gov.sa/ar/agencies/1149483
+    official_website: https://ldsp.gov.sa
+  en:
+    name: Legal Departments Support Program
+    category_id: '19574'
+    category_name: Programs
+    detail_url: https://www.my.gov.sa/en/agencies/1149483
+    official_website: https://ldsp.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Legal Departments Support Program
+  - برنامج دعم الإدارات القانونية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

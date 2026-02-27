@@ -1,0 +1,48 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17444
+slug: 17444-king-saud-bin-abdulaziz-university-for-health-sciences-ksau-hs
+contrib_file_name: king-saud-bin-abdulaziz-university-for-health-sciences-ksau-hs.yaml
+is_ministry: false
+category_ids:
+- '17963'
+category_names:
+- Universities
+- الجامعات
+locales:
+  ar:
+    name: جامعة الملك سعود بن عبدالعزيز للعلوم الصحية
+    category_id: '17963'
+    category_name: الجامعات
+    detail_url: https://www.my.gov.sa/ar/agencies/17444
+    official_website: http://www.ksau-hs.edu.sa/English/Pages/Default.aspx
+  en:
+    name: King Saud Bin Abdulaziz University For Health Sciences (KSAU-HS)
+    category_id: '17963'
+    category_name: Universities
+    detail_url: https://www.my.gov.sa/en/agencies/17444
+    official_website: http://www.ksau-hs.edu.sa/English/Pages/Default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - King Saud Bin Abdulaziz University For Health Sciences (KSAU-HS)
+  - جامعة الملك سعود بن عبدالعزيز للعلوم الصحية
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+  - source_id: moh_hdp_api
+    reason: MOH Health Data Platform public API.
+  - source_id: shc_open_data_apis
+    reason: Saudi Health Council open data endpoints.
+  - source_id: cchi_odata
+    reason: CCHI health insurance OData source.
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

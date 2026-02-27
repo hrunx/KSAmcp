@@ -1,0 +1,52 @@
+[project]
+name = "ksa-opendata-mcp"
+version = "0.1.0"
+description = "Nation-scale MCP server for Saudi open data discovery and agency connectors."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "KSA Open Data Team" }]
+requires-python = ">=3.11"
+dependencies = [
+  "fastmcp>=0.3.6",
+  "fastapi>=0.111.0",
+  "httpx>=0.26.0",
+  "cachetools>=5.3.0",
+  "pyyaml>=6.0",
+  "python-dateutil>=2.8",
+  "openpyxl>=3.1",
+  "uv>=0.10.6",
+  "typing_extensions>=4.6",
+  "pydantic>=2.4",
+  "pydantic-settings>=2.4",
+  "psycopg[binary]>=3.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2",
+  "pytest-asyncio>=0.22",
+  "pytest-mock>=3.11",
+  "ruff>=0.0",
+  "mypy>=1.8",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hrunx/KSAmcp"
+"Repository" = "https://github.com/hrunx/KSAmcp"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+lint = { select = ["E", "F", "W", "I", "C", "N"] }
+
+[tool.setuptools.packages.find]
+include = ["ksa_opendata"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+strict = true

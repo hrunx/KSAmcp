@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17486
+slug: 17486-board-of-grievances
+contrib_file_name: board-of-grievances.yaml
+is_ministry: false
+category_ids:
+- '18185'
+category_names:
+- Courts
+- الدواوين
+locales:
+  ar:
+    name: ديوان المظالم
+    category_id: '18185'
+    category_name: الدواوين
+    detail_url: https://www.my.gov.sa/ar/agencies/17486
+    official_website: https://www.bog.gov.sa/Pages/Default.aspx
+  en:
+    name: Board of Grievances
+    category_id: '18185'
+    category_name: Courts
+    detail_url: https://www.my.gov.sa/en/agencies/17486
+    official_website: https://www.bog.gov.sa/Pages/Default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Board of Grievances
+  - ديوان المظالم
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

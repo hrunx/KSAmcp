@@ -1,0 +1,43 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 18248
+slug: 18248-the-presidency-of-religious-affairs-at-the-grand-mosque-and-the-prophet-s-mosque
+contrib_file_name: the-presidency-of-religious-affairs-at-the-grand-mosque-and-the-prophet-s-mosque.yaml
+is_ministry: false
+category_ids:
+- '17885'
+category_names:
+- Presidencies
+- الرئاسات
+locales:
+  ar:
+    name: رئاسة الشؤون الدينية بالمسجد الحرام والمسجد النبوي
+    category_id: '17885'
+    category_name: الرئاسات
+    detail_url: https://www.my.gov.sa/ar/agencies/18248
+    official_website: https://prh.gov.sa
+  en:
+    name: The Presidency of Religious Affairs at the Grand Mosque and the Prophet's
+      Mosque
+    category_id: '17885'
+    category_name: Presidencies
+    detail_url: https://www.my.gov.sa/en/agencies/18248
+    official_website: https://prh.gov.sa
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - The Presidency of Religious Affairs at the Grand Mosque and the Prophet's Mosque
+  - رئاسة الشؤون الدينية بالمسجد الحرام والمسجد النبوي
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

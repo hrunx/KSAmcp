@@ -1,0 +1,406 @@
+# GOV.SA Entity Registry (Authoritative Crawl)
+
+- Generated at (UTC): `2026-02-27T03:31:48.586661+00:00`
+- Official GOV.SA total rows reported: `363`
+- Raw rows collected across strategies: `1452`
+- Unique entity IDs captured: `360`
+- Ministry entity IDs captured: `27`
+
+## Ministry Pick List
+
+- `17330` | Ministry of Sports | وزارة الرياضة | `contrib/entities/ministry-of-sports.yaml`
+- `17342` | Ministry of National Guard Health Affairs (MNGHA) | الشؤون الصحية بوزارة الحرس الوطني | `contrib/entities/ministry-of-national-guard-health-affairs-mngha.yaml`
+- `17396` | Ministry of Investment | وزارة الاستثمار | `contrib/entities/ministry-of-investment.yaml`
+- `17399` | Ministry of Tourism | وزارة السياحة | `contrib/entities/ministry-of-tourism.yaml`
+- `17597` | Ministry of Communications and Information Technology | وزارة الاتصالات وتقنية المعلومات | `contrib/entities/ministry-of-communications-and-information-technology.yaml`
+- `17600` | Ministry of Economy and Planning | وزارة الاقتصاد والتخطيط | `contrib/entities/ministry-of-economy-and-planning.yaml`
+- `17603` | Ministry of Energy | وزارة الطاقة | `contrib/entities/ministry-of-energy.yaml`
+- `17606` | Ministry of Commerce | وزارة التجارة | `contrib/entities/ministry-of-commerce.yaml`
+- `17609` | Ministry Of Education | وزارة التعليم | `contrib/entities/ministry-of-education.yaml`
+- `17612` | Ministry of Media | وزارة الإعلام | `contrib/entities/ministry-of-media.yaml`
+- `17615` | Ministry of Haj and Umra | وزارة الحج والعمرة | `contrib/entities/ministry-of-haj-and-umra.yaml`
+- `17618` | Ministry of National Guard | وزارة الحرس الوطني | `contrib/entities/ministry-of-national-guard.yaml`
+- `17621` | Ministry of Foreign Affairs | وزارة الخارجية | `contrib/entities/ministry-of-foreign-affairs.yaml`
+- `17624` | Ministry of Interior | وزارة الداخلية | `contrib/entities/ministry-of-interior.yaml`
+- `17630` | Ministry of Environment, Water and Agriculture | وزارة البيئة والمياه والزراعة | `contrib/entities/ministry-of-environment-water-and-agriculture.yaml`
+- `17633` | Ministry of Islamic Affairs, Dawah and Guidance | وزارة الشؤون الإسلامية والدعوة والإرشاد | `contrib/entities/ministry-of-islamic-affairs-dawah-and-guidance.yaml`
+- `17636` | Ministry of Municipalities and Housing | وزارة البلديات والإسكان | `contrib/entities/ministry-of-municipalities-and-housing.yaml`
+- `17639` | Ministry of Health | وزارة الصحة | `contrib/entities/ministry-of-health.yaml`
+- `17642` | Ministry Of Justice | وزارة العدل | `contrib/entities/ministry-of-justice.yaml`
+- `17645` | Ministry of Finance | وزارة المالية | `contrib/entities/ministry-of-finance.yaml`
+- `17648` | Ministry of Transport and Logistics Services | وزارة النقل والخدمات اللوجستية | `contrib/entities/ministry-of-transport-and-logistics-services.yaml`
+- `17651` | Ministry of Industry and Mineral Resources | وزارة الصناعة والثروة المعدنية | `contrib/entities/ministry-of-industry-and-mineral-resources.yaml`
+- `17792` | Ministry of Culture | وزارة الثقافة | `contrib/entities/ministry-of-culture.yaml`
+- `17900` | Ministry of Human Resource and Social Development | وزارة الموارد البشرية والتنمية الاجتماعية | `contrib/entities/ministry-of-human-resource-and-social-development.yaml`
+- `17909` | King Faisal Medical City for Southern Regions | مدينة الملك فيصل الطبية لخدمة مناطق المملكة الجنوبية | `contrib/entities/king-faisal-medical-city-for-southern-regions.yaml`
+- `18116` | Special Forces For Environmental Security | القوات الخاصة للأمن البيئي | `contrib/entities/special-forces-for-environmental-security.yaml`
+- `18275` | Prince Saud Al Faisal Institute for Diplomatic Studies | معهد الامير سعود الفيصل للدراسات الدبلوماسية | `contrib/entities/prince-saud-al-faisal-institute-for-diplomatic-studies.yaml`
+
+## Notes
+
+- This registry is generated from official GOV.SA directory payloads only.
+- No entity names or categories are fabricated or inferred outside source payloads.
+- Contributor files are machine-generated and safe to claim by PR.
+
+## All Entities
+
+- `17219` | Emirate Of Eastern Province | `contrib/entities/emirate-of-eastern-province.yaml`
+- `17222` | Emirate Of Al-Baaha Province | `contrib/entities/emirate-of-al-baaha-province.yaml`
+- `17225` | Emirate Of Al-Jowf Province | `contrib/entities/emirate-of-al-jowf-province.yaml`
+- `17228` | Emirate Of Northern Borders Province | `contrib/entities/emirate-of-northern-borders-province.yaml`
+- `17231` | Emirate Of Riyadh Province | `contrib/entities/emirate-of-riyadh-province.yaml`
+- `17234` | Emirate Of Al-Qasim Province | `contrib/entities/emirate-of-al-qasim-province.yaml`
+- `17237` | Emirate Of Madinah Province | `contrib/entities/emirate-of-madinah-province.yaml`
+- `17240` | Emirate Of Tabouk Province | `contrib/entities/emirate-of-tabouk-province.yaml`
+- `17243` | Emirate Of Jazan Province | `contrib/entities/emirate-of-jazan-province.yaml`
+- `17246` | Emirate Of Hail Province | `contrib/entities/emirate-of-hail-province.yaml`
+- `17249` | Emirate Of Aseer Province | `contrib/entities/emirate-of-aseer-province.yaml`
+- `17252` | Emirate Of Makkah Province | `contrib/entities/emirate-of-makkah-province.yaml`
+- `17255` | Emirate Of Najran Province | `contrib/entities/emirate-of-najran-province.yaml`
+- `17258` | Alahsa Municipality | `contrib/entities/alahsa-municipality.yaml`
+- `17261` | Taif Municipality | `contrib/entities/taif-municipality.yaml`
+- `17264` | Holy Makkah Municipality | `contrib/entities/holy-makkah-municipality.yaml`
+- `17267` | Eastern Region Municipality | `contrib/entities/eastern-region-municipality.yaml`
+- `17270` | Jeddah Municipality | `contrib/entities/jeddah-municipality.yaml`
+- `17273` | Al Baha Municipality | `contrib/entities/al-baha-municipality.yaml`
+- `17276` | Al-Jouf Municipality | `contrib/entities/al-jouf-municipality.yaml`
+- `17279` | Northern Borders Municipality | `contrib/entities/northern-borders-municipality.yaml`
+- `17282` | Riyadh Municipality | `contrib/entities/riyadh-municipality.yaml`
+- `17285` | Qassim Municipality | `contrib/entities/qassim-municipality.yaml`
+- `17288` | Madinah Municipality | `contrib/entities/madinah-municipality.yaml`
+- `17291` | Tabuk Municipality | `contrib/entities/tabuk-municipality.yaml`
+- `17294` | Jazan Municipality | `contrib/entities/jazan-municipality.yaml`
+- `17297` | Hail Region Municipality | `contrib/entities/hail-region-municipality.yaml`
+- `17300` | Aseer Municipality | `contrib/entities/aseer-municipality.yaml`
+- `17303` | Najran Municipality | `contrib/entities/najran-municipality.yaml`
+- `17306` | General Administration of Medical Services at the Ministry of Interior | `contrib/entities/general-administration-of-medical-services-at-the-ministry-of-interior.yaml`
+- `17309` | Armed Forces Medical Services | `contrib/entities/armed-forces-medical-services.yaml`
+- `17312` | General Directorate of Traffic | `contrib/entities/general-directorate-of-traffic.yaml`
+- `17315` | General Directorate of Public Pecurity | `contrib/entities/general-directorate-of-public-pecurity.yaml`
+- `17318` | Social Development Bank | `contrib/entities/social-development-bank.yaml`
+- `17321` | Islamic University Of Madinah | `contrib/entities/islamic-university-of-madinah.yaml`
+- `17324` | (no EN title) | `contrib/entities/الخطوط-الجوية-العربية-السعودية.yaml`
+- `17327` | Royal Court | `contrib/entities/royal-court.yaml`
+- `17330` | Ministry of Sports | `contrib/entities/ministry-of-sports.yaml`
+- `17333` | The General Authority for the Affairs of the Grand Mosque and the Prophet's Mosq | `contrib/entities/the-general-authority-for-the-affairs-of-the-grand-mosque-and-the-prophet-s-mosq.yaml`
+- `17336` | National Center for Meteorology | `contrib/entities/national-center-for-meteorology.yaml`
+- `17339` | The General Presidency of Promotion of Virtue and Prevention of Vice | `contrib/entities/the-general-presidency-of-promotion-of-virtue-and-prevention-of-vice.yaml`
+- `17342` | Ministry of National Guard Health Affairs (MNGHA) | `contrib/entities/ministry-of-national-guard-health-affairs-mngha.yaml`
+- `17345` | Saudi Fund For Development | `contrib/entities/saudi-fund-for-development.yaml`
+- `17348` | Saudi Water Authority | `contrib/entities/saudi-water-authority.yaml`
+- `17351` | General Food Security Authority (GFSA) | `contrib/entities/general-food-security-authority-gfsa.yaml`
+- `17354` | General Organization for Social Insurance | `contrib/entities/general-organization-for-social-insurance.yaml`
+- `17357` | Technical and Vocational Training Corporation | `contrib/entities/technical-and-vocational-training-corporation.yaml`
+- `17360` | Saudi Ports Authority | `contrib/entities/saudi-ports-authority.yaml`
+- `17363` | General Directorate of Investigation | `contrib/entities/general-directorate-of-investigation.yaml`
+- `17366` | General Directorate of Border Guards | `contrib/entities/general-directorate-of-border-guards.yaml`
+- `17369` | General Directorate of Passports | `contrib/entities/general-directorate-of-passports.yaml`
+- `17372` | General Directorate of Civil Defense | `contrib/entities/general-directorate-of-civil-defense.yaml`
+- `17375` | General Directorate For Prisons | `contrib/entities/general-directorate-for-prisons.yaml`
+- `17378` | General Directorate of Narcotics Control | `contrib/entities/general-directorate-of-narcotics-control.yaml`
+- `17384` | National Center for Archives and Records | `contrib/entities/national-center-for-archives-and-records.yaml`
+- `17387` | Saudi Commission for Health Specialties | `contrib/entities/saudi-commission-for-health-specialties.yaml`
+- `17390` | National Center for Wildlife | `contrib/entities/national-center-for-wildlife.yaml`
+- `17393` | Saudi Standards, Metrology and Quality Organization | `contrib/entities/saudi-standards-metrology-and-quality-organization.yaml`
+- `17396` | Ministry of Investment | `contrib/entities/ministry-of-investment.yaml`
+- `17399` | Ministry of Tourism | `contrib/entities/ministry-of-tourism.yaml`
+- `17402` | General Authority of Civil Aviation (GACA) | `contrib/entities/general-authority-of-civil-aviation-gaca.yaml`
+- `17405` | Saudi Food and Drug Authority | `contrib/entities/saudi-food-and-drug-authority.yaml`
+- `17408` | General Authority for Survey and Geospatial Information | `contrib/entities/general-authority-for-survey-and-geospatial-information.yaml`
+- `17411` | Royal Commission for Jubail and Yanbu | `contrib/entities/royal-commission-for-jubail-and-yanbu.yaml`
+- `17414` | Umm Al-Qura University | `contrib/entities/umm-al-qura-university.yaml`
+- `17417` | Princess Nora Bint Abdulrahman University | `contrib/entities/princess-nora-bint-abdulrahman-university.yaml`
+- `17420` | Immam Mohammed Bin Saud Islamic University | `contrib/entities/immam-mohammed-bin-saud-islamic-university.yaml`
+- `17423` | Al Baha University | `contrib/entities/al-baha-university.yaml`
+- `17426` | Jouf University | `contrib/entities/jouf-university.yaml`
+- `17429` | Northern Borders University | `contrib/entities/northern-borders-university.yaml`
+- `17432` | Imam Abdulrahman Bin Faisal University | `contrib/entities/imam-abdulrahman-bin-faisal-university.yaml`
+- `17435` | Taif University | `contrib/entities/taif-university.yaml`
+- `17438` | Qassim University | `contrib/entities/qassim-university.yaml`
+- `17441` | Majmaah University | `contrib/entities/majmaah-university.yaml`
+- `17444` | King Saud Bin Abdulaziz University For Health Sciences (KSAU-HS) | `contrib/entities/king-saud-bin-abdulaziz-university-for-health-sciences-ksau-hs.yaml`
+- `17447` | King Abdulaziz University | `contrib/entities/king-abdulaziz-university.yaml`
+- `17453` | King Fahd University of Petroleum and Minerals | `contrib/entities/king-fahd-university-of-petroleum-and-minerals.yaml`
+- `17456` | King Faisal University | `contrib/entities/king-faisal-university.yaml`
+- `17459` | University of Tabuk | `contrib/entities/university-of-tabuk.yaml`
+- `17465` | University of Hail | `contrib/entities/university-of-hail.yaml`
+- `17468` | Prince Sattam bin Abdulaziz University | `contrib/entities/prince-sattam-bin-abdulaziz-university.yaml`
+- `17471` | Shaqra University | `contrib/entities/shaqra-university.yaml`
+- `17474` | Taibah University | `contrib/entities/taibah-university.yaml`
+- `17477` | Najran University | `contrib/entities/najran-university.yaml`
+- `17480` | King Abdulaziz Foundation for Research and Archives (Darah) | `contrib/entities/king-abdulaziz-foundation-for-research-and-archives-darah.yaml`
+- `17483` | General Bureau for Auditing | `contrib/entities/general-bureau-for-auditing.yaml`
+- `17486` | Board of Grievances | `contrib/entities/board-of-grievances.yaml`
+- `17489` | General Secretariat of the Cabinet | `contrib/entities/general-secretariat-of-the-cabinet.yaml`
+- `17495` | The General Presidency of Islamic Research and Ifta | `contrib/entities/the-general-presidency-of-islamic-research-and-ifta.yaml`
+- `17501` | Higher Education Fund | `contrib/entities/higher-education-fund.yaml`
+- `17504` | Agricultural Development Fund | `contrib/entities/agricultural-development-fund.yaml`
+- `17507` | Saudi Industrial Development Fund | `contrib/entities/saudi-industrial-development-fund.yaml`
+- `17510` | Real Estate Development Fund | `contrib/entities/real-estate-development-fund.yaml`
+- `17513` | Human Resources Development Fund | `contrib/entities/human-resources-development-fund.yaml`
+- `17516` | King khalid Military Academy | `contrib/entities/king-khalid-military-academy.yaml`
+- `17519` | Political and Security Affairs Council | `contrib/entities/political-and-security-affairs-council.yaml`
+- `17522` | Saudi Health Council | `contrib/entities/saudi-health-council.yaml`
+- `17525` | Shura Council | `contrib/entities/shura-council.yaml`
+- `17528` | Council of Health Insurance | `contrib/entities/council-of-health-insurance.yaml`
+- `17531` | Federation of Saudi Chambers | `contrib/entities/federation-of-saudi-chambers.yaml`
+- `17534` | King Fahd Glorious Quran Printing Complex | `contrib/entities/king-fahd-glorious-quran-printing-complex.yaml`
+- `17537` | (no EN title) | `contrib/entities/مدينة-الملك-عبدالعزيز-للعلوم-والتقنية.yaml`
+- `17540` | King Abdullah City for Atomic and Renewable Energy | `contrib/entities/king-abdullah-city-for-atomic-and-renewable-energy.yaml`
+- `17543` | King Fahd Medical City | `contrib/entities/king-fahd-medical-city.yaml`
+- `17546` | King Khaled Eye Specialist Hospital | `contrib/entities/king-khaled-eye-specialist-hospital.yaml`
+- `17549` | King Faisal Specialist Hospital and Research Center | `contrib/entities/king-faisal-specialist-hospital-and-research-center.yaml`
+- `17552` | General Authority for Statistics | `contrib/entities/general-authority-for-statistics.yaml`
+- `17555` | Zakat, Tax and Customs Authority | `contrib/entities/zakat-tax-and-customs-authority.yaml`
+- `17558` | Institute of Public Administration | `contrib/entities/institute-of-public-administration.yaml`
+- `17561` | King Abdulaziz Public Library | `contrib/entities/king-abdulaziz-public-library.yaml`
+- `17564` | King Fahd National Library | `contrib/entities/king-fahd-national-library.yaml`
+- `17567` | Communications, Space and Technology Commission | `contrib/entities/communications-space-and-technology-commission.yaml`
+- `17570` | Public Prosecution | `contrib/entities/public-prosecution.yaml`
+- `17573` | Bureau of Experts at the Council of Ministers | `contrib/entities/bureau-of-experts-at-the-council-of-ministers.yaml`
+- `17576` | Saudi Irrigation Organization | `contrib/entities/saudi-irrigation-organization.yaml`
+- `17579` | Capital Market Authority | `contrib/entities/capital-market-authority.yaml`
+- `17582` | Saudi Authority for Industrial Cities and Technology Zone | `contrib/entities/saudi-authority-for-industrial-cities-and-technology-zone.yaml`
+- `17585` | Saudi Geological Survey | `contrib/entities/saudi-geological-survey.yaml`
+- `17588` | Saudi Red Crescent Authority | `contrib/entities/saudi-red-crescent-authority.yaml`
+- `17591` | Saudi Electricity Regulatory Authority | `contrib/entities/saudi-electricity-regulatory-authority.yaml`
+- `17594` | Human Rights Commision | `contrib/entities/human-rights-commision.yaml`
+- `17597` | Ministry of Communications and Information Technology | `contrib/entities/ministry-of-communications-and-information-technology.yaml`
+- `17600` | Ministry of Economy and Planning | `contrib/entities/ministry-of-economy-and-planning.yaml`
+- `17603` | Ministry of Energy | `contrib/entities/ministry-of-energy.yaml`
+- `17606` | Ministry of Commerce | `contrib/entities/ministry-of-commerce.yaml`
+- `17609` | Ministry Of Education | `contrib/entities/ministry-of-education.yaml`
+- `17612` | Ministry of Media | `contrib/entities/ministry-of-media.yaml`
+- `17615` | Ministry of Haj and Umra | `contrib/entities/ministry-of-haj-and-umra.yaml`
+- `17618` | Ministry of National Guard | `contrib/entities/ministry-of-national-guard.yaml`
+- `17621` | Ministry of Foreign Affairs | `contrib/entities/ministry-of-foreign-affairs.yaml`
+- `17624` | Ministry of Interior | `contrib/entities/ministry-of-interior.yaml`
+- `17627` | Ministry of Defense | `contrib/entities/ministry-of-defense.yaml`
+- `17630` | Ministry of Environment, Water and Agriculture | `contrib/entities/ministry-of-environment-water-and-agriculture.yaml`
+- `17633` | Ministry of Islamic Affairs, Dawah and Guidance | `contrib/entities/ministry-of-islamic-affairs-dawah-and-guidance.yaml`
+- `17636` | Ministry of Municipalities and Housing | `contrib/entities/ministry-of-municipalities-and-housing.yaml`
+- `17639` | Ministry of Health | `contrib/entities/ministry-of-health.yaml`
+- `17642` | Ministry Of Justice | `contrib/entities/ministry-of-justice.yaml`
+- `17645` | Ministry of Finance | `contrib/entities/ministry-of-finance.yaml`
+- `17648` | Ministry of Transport and Logistics Services | `contrib/entities/ministry-of-transport-and-logistics-services.yaml`
+- `17651` | Ministry of Industry and Mineral Resources | `contrib/entities/ministry-of-industry-and-mineral-resources.yaml`
+- `17654` | Ministerial Agency of Civil Affairs | `contrib/entities/ministerial-agency-of-civil-affairs.yaml`
+- `17657` | Saudi Electronic University | `contrib/entities/saudi-electronic-university.yaml`
+- `17660` | Saudi Royal Guard Command | `contrib/entities/saudi-royal-guard-command.yaml`
+- `17663` | Royal Commission for Riyadh City | `contrib/entities/royal-commission-for-riyadh-city.yaml`
+- `17666` | Oversight and Anti-Corruption Authority | `contrib/entities/oversight-and-anti-corruption-authority.yaml`
+- `17669` | Economic Cities and Special Zones Authority | `contrib/entities/economic-cities-and-special-zones-authority.yaml`
+- `17672` | Digital Government Authority | `contrib/entities/digital-government-authority.yaml`
+- `17675` | Special Security Forces | `contrib/entities/special-security-forces.yaml`
+- `17678` | Facilities Security Forces | `contrib/entities/facilities-security-forces.yaml`
+- `17681` | National Industrial Development Center | `contrib/entities/national-industrial-development-center.yaml`
+- `17684` | Saudi Export Development Authority | `contrib/entities/saudi-export-development-authority.yaml`
+- `17687` | General Authority For Competition | `contrib/entities/general-authority-for-competition.yaml`
+- `17690` | Saudi Organization for Chartered and Professional Accountants (SOCPA) | `contrib/entities/saudi-organization-for-chartered-and-professional-accountants-socpa.yaml`
+- `17693` | King Abdullah Petroleum Studies and Research Center (KAPSARC) | `contrib/entities/king-abdullah-petroleum-studies-and-research-center-kapsarc.yaml`
+- `17696` | University of Bisha | `contrib/entities/university-of-bisha.yaml`
+- `17702` | University of Hafr Al Batin | `contrib/entities/university-of-hafr-al-batin.yaml`
+- `17705` | Education and Training Evaluation Commission | `contrib/entities/education-and-training-evaluation-commission.yaml`
+- `17708` | General Authority of Media Regulation | `contrib/entities/general-authority-of-media-regulation.yaml`
+- `17711` | Saudi Broadcasting Authority | `contrib/entities/saudi-broadcasting-authority.yaml`
+- `17714` | King Abdulaziz Center for Cultural Communication | `contrib/entities/king-abdulaziz-center-for-cultural-communication.yaml`
+- `17717` | Saudi Press Agency | `contrib/entities/saudi-press-agency.yaml`
+- `17720` | Makkah Province Development Authority | `contrib/entities/makkah-province-development-authority.yaml`
+- `17723` | Almadinah Almunawarah Development Authority | `contrib/entities/almadinah-almunawarah-development-authority.yaml`
+- `17726` | (no EN title) | `contrib/entities/المدينة-الطبية-بجامعة-الملك-سعود.yaml`
+- `17729` | King Saud Medical City | `contrib/entities/king-saud-medical-city.yaml`
+- `17732` | Saudi Olympic and Paralympic Committee | `contrib/entities/saudi-olympic-and-paralympic-committee.yaml`
+- `17735` | General Commission for the Guardianship of Trust Funds for Miniros and their Cou | `contrib/entities/general-commission-for-the-guardianship-of-trust-funds-for-miniros-and-their-cou.yaml`
+- `17738` | Transport General Authority | `contrib/entities/transport-general-authority.yaml`
+- `17741` | Economical and Development Affairs Council | `contrib/entities/economical-and-development-affairs-council.yaml`
+- `17744` | General Entertainment Authority | `contrib/entities/general-entertainment-authority.yaml`
+- `17747` | National Center for Public Agencies Performance Measurement | `contrib/entities/national-center-for-public-agencies-performance-measurement.yaml`
+- `17750` | Saudi Authority for Accredited Valuers (Taqeem) | `contrib/entities/saudi-authority-for-accredited-valuers-taqeem.yaml`
+- `17753` | Small and Medium Enterprises General Authority | `contrib/entities/small-and-medium-enterprises-general-authority.yaml`
+- `17756` | General Authority for Awqaf | `contrib/entities/general-authority-for-awqaf.yaml`
+- `17759` | The Small and Medium Enterprises Loan Guarantee Program (Kafalah) | `contrib/entities/the-small-and-medium-enterprises-loan-guarantee-program-kafalah.yaml`
+- `17762` | Saudi Council of Engineers | `contrib/entities/saudi-council-of-engineers.yaml`
+- `17765` | National eLearning Center | `contrib/entities/national-elearning-center.yaml`
+- `17768` | National Development Fund | `contrib/entities/national-development-fund.yaml`
+- `17771` | General Real Estate Authority | `contrib/entities/general-real-estate-authority.yaml`
+- `17780` | Royal Commission for Governorate of Al-Ula | `contrib/entities/royal-commission-for-governorate-of-al-ula.yaml`
+- `17783` | The Camel Club | `contrib/entities/the-camel-club.yaml`
+- `17786` | Saudi Falcons Club | `contrib/entities/saudi-falcons-club.yaml`
+- `17789` | Custodian of the Two Holy Mosques King Salman bin Abdulaziz Al Saud Complex for | `contrib/entities/custodian-of-the-two-holy-mosques-king-salman-bin-abdulaziz-al-saud-complex-for.yaml`
+- `17792` | Ministry of Culture | `contrib/entities/ministry-of-culture.yaml`
+- `17798` | Royal Commission for Makkah City and Holy Sites | `contrib/entities/royal-commission-for-makkah-city-and-holy-sites.yaml`
+- `17801` | The Saudi Space | `contrib/entities/the-saudi-space.yaml`
+- `17804` | Hafr Al Batin Municipality | `contrib/entities/hafr-al-batin-municipality.yaml`
+- `17807` | Saudi Authority for Intellectual Property | `contrib/entities/saudi-authority-for-intellectual-property.yaml`
+- `17810` | Saudi Energy Efficiency Center | `contrib/entities/saudi-energy-efficiency-center.yaml`
+- `17816` | General Authority for Military Industries | `contrib/entities/general-authority-for-military-industries.yaml`
+- `17819` | Saudi Conventions and Exhibitions General Authority | `contrib/entities/saudi-conventions-and-exhibitions-general-authority.yaml`
+- `17822` | Nuclear and Radiological Regulatory Commission | `contrib/entities/nuclear-and-radiological-regulatory-commission.yaml`
+- `17825` | Local Content and Government Procurement Authority | `contrib/entities/local-content-and-government-procurement-authority.yaml`
+- `17828` | Saudi Data and Artificial Intelligence Authority (SDAIA) | `contrib/entities/saudi-data-and-artificial-intelligence-authority-sdaia.yaml`
+- `17831` | Saudi Bar Association | `contrib/entities/saudi-bar-association.yaml`
+- `17834` | (no EN title) | `contrib/entities/مدينة-الملك-عبدالله-الطبية-بالعاصمة-المقدسة.yaml`
+- `17837` | Entrustment and Liquidation Center (Infath) | `contrib/entities/entrustment-and-liquidation-center-infath.yaml`
+- `17840` | Quality of Life Program Center | `contrib/entities/quality-of-life-program-center.yaml`
+- `17843` | General Administration of Mujahideen | `contrib/entities/general-administration-of-mujahideen.yaml`
+- `17846` | (no EN title) | `contrib/entities/الهيئة-السعودية-للمقاولين.yaml`
+- `17849` | Diriyah Gate Development Authority | `contrib/entities/diriyah-gate-development-authority.yaml`
+- `17852` | Eastern Health Cluster | `contrib/entities/eastern-health-cluster.yaml`
+- `17855` | High Commission for the Development of Hail Region | `contrib/entities/high-commission-for-the-development-of-hail-region.yaml`
+- `17858` | Sharqia Development Authority | `contrib/entities/sharqia-development-authority.yaml`
+- `17861` | Financial Sector Development Program | `contrib/entities/financial-sector-development-program.yaml`
+- `17864` | Expenditure and Projects Efficiency Authority | `contrib/entities/expenditure-and-projects-efficiency-authority.yaml`
+- `17867` | Culinary Arts Commission | `contrib/entities/culinary-arts-commission.yaml`
+- `17870` | (no EN title) | `contrib/entities/هيئة-المتاحف.yaml`
+- `17873` | Saudi Visual Arts Authority | `contrib/entities/saudi-visual-arts-authority.yaml`
+- `17876` | Literature, Publishing and Translation Commission | `contrib/entities/literature-publishing-and-translation-commission.yaml`
+- `17879` | Saudi Center For International Strategic Partnerships | `contrib/entities/saudi-center-for-international-strategic-partnerships.yaml`
+- `17882` | King Abdulaziz Arabian Horses Center at Dirab | `contrib/entities/king-abdulaziz-arabian-horses-center-at-dirab.yaml`
+- `17885` | General Authority of Foreign Trade | `contrib/entities/general-authority-of-foreign-trade.yaml`
+- `17888` | Aseer Development Authority | `contrib/entities/aseer-development-authority.yaml`
+- `17891` | Saudi Business Center | `contrib/entities/saudi-business-center.yaml`
+- `17894` | District Affairs Agency | `contrib/entities/district-affairs-agency.yaml`
+- `17897` | National Competitiveness Center (NCC) | `contrib/entities/national-competitiveness-center-ncc.yaml`
+- `17900` | Ministry of Human Resource and Social Development | `contrib/entities/ministry-of-human-resource-and-social-development.yaml`
+- `17903` | (no EN title) | `contrib/entities/الهيئة-العامة-لعقارات-الدولة.yaml`
+- `17906` | Authority for Persons with Disabilities | `contrib/entities/authority-for-persons-with-disabilities.yaml`
+- `17909` | King Faisal Medical City for Southern Regions | `contrib/entities/king-faisal-medical-city-for-southern-regions.yaml`
+- `17912` | National Center for Privatization | `contrib/entities/national-center-for-privatization.yaml`
+- `17915` | Decision Support Center | `contrib/entities/decision-support-center.yaml`
+- `17918` | National Center for Environmental Compliance | `contrib/entities/national-center-for-environmental-compliance.yaml`
+- `17921` | National Center for Palms and Dates | `contrib/entities/national-center-for-palms-and-dates.yaml`
+- `17924` | Saudi Export-Import Bank | `contrib/entities/saudi-export-import-bank.yaml`
+- `17927` | Saudi Center for Organ Transplantation | `contrib/entities/saudi-center-for-organ-transplantation.yaml`
+- `17930` | Public Health Authority | `contrib/entities/public-health-authority.yaml`
+- `17933` | King Salman bin Abdulaziz Medical City | `contrib/entities/king-salman-bin-abdulaziz-medical-city.yaml`
+- `17936` | Environment Fund | `contrib/entities/environment-fund.yaml`
+- `17939` | General Secretariat of the National Risk Council | `contrib/entities/general-secretariat-of-the-national-risk-council.yaml`
+- `17942` | Council of Universities's Affairs | `contrib/entities/council-of-universities-s-affairs.yaml`
+- `17945` | National Committee for Narcotics Control | `contrib/entities/national-committee-for-narcotics-control.yaml`
+- `17948` | Health Sector Transformation Program | `contrib/entities/health-sector-transformation-program.yaml`
+- `17951` | Saudi Accreditation Center | `contrib/entities/saudi-accreditation-center.yaml`
+- `17954` | (no EN title) | `contrib/entities/المركز-الوطني-لإدارة-النفايات.yaml`
+- `17957` | Saudi Tourism Authority | `contrib/entities/saudi-tourism-authority.yaml`
+- `17960` | The Ministerial Committee of Traffic Safety | `contrib/entities/the-ministerial-committee-of-traffic-safety.yaml`
+- `17963` | Bankruptcy Commission | `contrib/entities/bankruptcy-commission.yaml`
+- `17966` | The Financial Academy | `contrib/entities/the-financial-academy.yaml`
+- `17969` | King Abdullah bin Abdulaziz University Hospital | `contrib/entities/king-abdullah-bin-abdulaziz-university-hospital.yaml`
+- `17972` | The National Research and Development Center for Sustainable Agriculture (Estida | `contrib/entities/the-national-research-and-development-center-for-sustainable-agriculture-estida.yaml`
+- `17975` | Energy and Water Price Reforms Executive Committee | `contrib/entities/energy-and-water-price-reforms-executive-committee.yaml`
+- `17978` | National institute for Educational Professional Development | `contrib/entities/national-institute-for-educational-professional-development.yaml`
+- `17981` | Saudi Central Board for Accreditation of Healthcare Institutions | `contrib/entities/saudi-central-board-for-accreditation-of-healthcare-institutions.yaml`
+- `17984` | Martyrs, Wounded, Prisoners and Missing Persons Fund | `contrib/entities/martyrs-wounded-prisoners-and-missing-persons-fund.yaml`
+- `17987` | Strategic Management Office | `contrib/entities/strategic-management-office.yaml`
+- `17990` | King Salman Global Academy for Arabic Language | `contrib/entities/king-salman-global-academy-for-arabic-language.yaml`
+- `17993` | National Events Center | `contrib/entities/national-events-center.yaml`
+- `17996` | Prince Muhammad Medical City | `contrib/entities/prince-muhammad-medical-city.yaml`
+- `17999` | MOI Agency for Security Capabilities | `contrib/entities/moi-agency-for-security-capabilities.yaml`
+- `18002` | Prince Sultan Defense Studies & Research Center | `contrib/entities/prince-sultan-defense-studies-research-center.yaml`
+- `18005` | Saudi Railway (SAR) | `contrib/entities/saudi-railway-sar.yaml`
+- `18008` | National Center for Government Resources Sys. | `contrib/entities/national-center-for-government-resources-sys.yaml`
+- `18011` | Saudi Aviation Club | `contrib/entities/saudi-aviation-club.yaml`
+- `18014` | The Small and Medium Enterprise Bank | `contrib/entities/the-small-and-medium-enterprise-bank.yaml`
+- `18017` | (no EN title) | `contrib/entities/مركز-الملك-عبدالله-بن-عبدالعزيز-للتخطيط-والسياسات-اللغوية.yaml`
+- `18020` | National Center for Non-Profit Sector | `contrib/entities/national-center-for-non-profit-sector.yaml`
+- `18023` | King Abdulaziz Library | `contrib/entities/king-abdulaziz-library.yaml`
+- `18026` | The Saudi Authority of Internal Auditors | `contrib/entities/the-saudi-authority-of-internal-auditors.yaml`
+- `18029` | Jeddah Development Authority | `contrib/entities/jeddah-development-authority.yaml`
+- `18032` | Human Capability Development Program | `contrib/entities/human-capability-development-program.yaml`
+- `18038` | Naif Arab University for Security Sciences | `contrib/entities/naif-arab-university-for-security-sciences.yaml`
+- `18041` | King Salman Bin Abdulaziz Royal Reserve Development Authority | `contrib/entities/king-salman-bin-abdulaziz-royal-reserve-development-authority.yaml`
+- `18044` | Special Forces For Security and protection | `contrib/entities/special-forces-for-security-and-protection.yaml`
+- `18047` | Premium Residency Center | `contrib/entities/premium-residency-center.yaml`
+- `18050` | National Health Insurance Center | `contrib/entities/national-health-insurance-center.yaml`
+- `18053` | Prince Mohammed bin Salman Reserve Development Authority | `contrib/entities/prince-mohammed-bin-salman-reserve-development-authority.yaml`
+- `18056` | National Debt Management Center (NDMC) | `contrib/entities/national-debt-management-center-ndmc.yaml`
+- `18059` | Alimony Fund | `contrib/entities/alimony-fund.yaml`
+- `18062` | Family Affairs Council | `contrib/entities/family-affairs-council.yaml`
+- `18065` | Jazan Mountains Development Authority | `contrib/entities/jazan-mountains-development-authority.yaml`
+- `18068` | Imam Turki bin Abdullah Royal Natural Reserve Development Authority | `contrib/entities/imam-turki-bin-abdullah-royal-natural-reserve-development-authority.yaml`
+- `18071` | King Fahad Causeway Authority | `contrib/entities/king-fahad-causeway-authority.yaml`
+- `18074` | General Authority for Defense Development | `contrib/entities/general-authority-for-defense-development.yaml`
+- `18077` | Horse Racing Club | `contrib/entities/horse-racing-club.yaml`
+- `18080` | National Center for Social Studies (NCSS) | `contrib/entities/national-center-for-social-studies-ncss.yaml`
+- `18083` | Imam Abdulaziz bin Muhammad Royal Reserve Development Authority | `contrib/entities/imam-abdulaziz-bin-muhammad-royal-reserve-development-authority.yaml`
+- `18086` | Sports Boulevard Foundation | `contrib/entities/sports-boulevard-foundation.yaml`
+- `18089` | Alahsa Health Cluster | `contrib/entities/alahsa-health-cluster.yaml`
+- `18092` | National Center for Vegetation Cover Development and Combating Desertification | `contrib/entities/national-center-for-vegetation-cover-development-and-combating-desertification.yaml`
+- `18095` | National Program for Community Development | `contrib/entities/national-program-for-community-development.yaml`
+- `18098` | Oil Sustainability Program | `contrib/entities/oil-sustainability-program.yaml`
+- `18101` | e-commerce Council | `contrib/entities/e-commerce-council.yaml`
+- `18107` | Equestrian Club | `contrib/entities/equestrian-club.yaml`
+- `18110` | King Salman Park Foundation | `contrib/entities/king-salman-park-foundation.yaml`
+- `18113` | General Secretariat of Military Services | `contrib/entities/general-secretariat-of-military-services.yaml`
+- `18116` | Special Forces For Environmental Security | `contrib/entities/special-forces-for-environmental-security.yaml`
+- `18119` | Riyadh Chamber | `contrib/entities/riyadh-chamber.yaml`
+- `18122` | Roads General Authority | `contrib/entities/roads-general-authority.yaml`
+- `18125` | The Strategic Office for Developing Albaha Region | `contrib/entities/the-strategic-office-for-developing-albaha-region.yaml`
+- `18134` | Saudi Patient Safety Center | `contrib/entities/saudi-patient-safety-center.yaml`
+- `18137` | King Abdulaziz Royal Reserve Development Authority | `contrib/entities/king-abdulaziz-royal-reserve-development-authority.yaml`
+- `18140` | Royal Institute of Traditional Arts | `contrib/entities/royal-institute-of-traditional-arts.yaml`
+- `18143` | AMER-TEST | `contrib/entities/amer-test.yaml`
+- `18146` | Jouf Development Strategic Office | `contrib/entities/jouf-development-strategic-office.yaml`
+- `18152` | National Center for the Prevention & Control of Plants Pests & Animal Diseases | `contrib/entities/national-center-for-the-prevention-control-of-plants-pests-animal-diseases.yaml`
+- `18155` | Saudi Red Sea Authority | `contrib/entities/saudi-red-sea-authority.yaml`
+- `18158` | Supreme Body for the Control of Pilgrimage Transport | `contrib/entities/supreme-body-for-the-control-of-pilgrimage-transport.yaml`
+- `18161` | The Strategy Office for Developing Jazan Region | `contrib/entities/the-strategy-office-for-developing-jazan-region.yaml`
+- `18164` | Shared Services Program | `contrib/entities/shared-services-program.yaml`
+- `18167` | Riyadh Infrastructure Projects Center | `contrib/entities/riyadh-infrastructure-projects-center.yaml`
+- `18170` | National Council of Occupational Safety and Health | `contrib/entities/national-council-of-occupational-safety-and-health.yaml`
+- `18173` | Events Investment Fund | `contrib/entities/events-investment-fund.yaml`
+- `18176` | Research, Development and Innovation Authority | `contrib/entities/research-development-and-innovation-authority.yaml`
+- `18179` | Saudi Universities Sports Federation | `contrib/entities/saudi-universities-sports-federation.yaml`
+- `18185` | National Committee For the welfare of Inmates the Released and their Families | `contrib/entities/national-committee-for-the-welfare-of-inmates-the-released-and-their-families.yaml`
+- `18188` | Saudi Federation for Cybersecurity, Programming and Drones | `contrib/entities/saudi-federation-for-cybersecurity-programming-and-drones.yaml`
+- `18194` | Supreme Authority for Industrial Security | `contrib/entities/supreme-authority-for-industrial-security.yaml`
+- `18197` | National Transformation Program Center | `contrib/entities/national-transformation-program-center.yaml`
+- `18200` | National Industrial Development and Logistics Program (NIDLP) | `contrib/entities/national-industrial-development-and-logistics-program-nidlp.yaml`
+- `18203` | Pilgrim Experience Program | `contrib/entities/pilgrim-experience-program.yaml`
+- `18206` | Public Investment Fund | `contrib/entities/public-investment-fund.yaml`
+- `18209` | Cultural Development Fund | `contrib/entities/cultural-development-fund.yaml`
+- `18212` | Tourism Development Fund | `contrib/entities/tourism-development-fund.yaml`
+- `18215` | Associations Support Fund | `contrib/entities/associations-support-fund.yaml`
+- `18218` | Center of Legal Studies and Research | `contrib/entities/center-of-legal-studies-and-research.yaml`
+- `18221` | Development Authority Support Center | `contrib/entities/development-authority-support-center.yaml`
+- `18227` | Fashion Commission | `contrib/entities/fashion-commission.yaml`
+- `18230` | Film Commission | `contrib/entities/film-commission.yaml`
+- `18233` | Heritage Commission | `contrib/entities/heritage-commission.yaml`
+- `18236` | Theater and Performing Arts Commission | `contrib/entities/theater-and-performing-arts-commission.yaml`
+- `18239` | Libraries Commission | `contrib/entities/libraries-commission.yaml`
+- `18242` | Music Commission | `contrib/entities/music-commission.yaml`
+- `18245` | Architecture and Design Commission | `contrib/entities/architecture-and-design-commission.yaml`
+- `18248` | The Presidency of Religious Affairs at the Grand Mosque and the Prophet's Mosque | `contrib/entities/the-presidency-of-religious-affairs-at-the-grand-mosque-and-the-prophet-s-mosque.yaml`
+- `18251` | National Water Efficiency and Conservation Center | `contrib/entities/national-water-efficiency-and-conservation-center.yaml`
+- `18254` | National Transport Safety Center | `contrib/entities/national-transport-safety-center.yaml`
+- `18257` | Non-Oil Revenues Development Center | `contrib/entities/non-oil-revenues-development-center.yaml`
+- `18260` | Mahd Sports Academy | `contrib/entities/mahd-sports-academy.yaml`
+- `18263` | National Centre For Curriculum | `contrib/entities/national-centre-for-curriculum.yaml`
+- `18266` | NATIONAL CENTER FOR MONITORING AND INSPECTION | `contrib/entities/national-center-for-monitoring-and-inspection.yaml`
+- `18269` | Insurance Authority | `contrib/entities/insurance-authority.yaml`
+- `18272` | Equestrian Authority | `contrib/entities/equestrian-authority.yaml`
+- `18275` | Prince Saud Al Faisal Institute for Diplomatic Studies | `contrib/entities/prince-saud-al-faisal-institute-for-diplomatic-studies.yaml`
+- `18278` | National Infrastructure Fund | `contrib/entities/national-infrastructure-fund.yaml`
+- `18281` | Strategic Office for Developing the Northern Borders Region | `contrib/entities/strategic-office-for-developing-the-northern-borders-region.yaml`
+- `18284` | Al-Ahsa Development Authority | `contrib/entities/al-ahsa-development-authority.yaml`
+- `18287` | Darin and Tarout Island Development Foundation | `contrib/entities/darin-and-tarout-island-development-foundation.yaml`
+- `18290` | Royal Reserves Council | `contrib/entities/royal-reserves-council.yaml`
+- `18293` | National Center for Complementary and Alternative Medicine | `contrib/entities/national-center-for-complementary-and-alternative-medicine.yaml`
+- `18296` | National Center For Mental Health Promotion | `contrib/entities/national-center-for-mental-health-promotion.yaml`
+- `18299` | King Fahd Security College | `contrib/entities/king-fahd-security-college.yaml`
+- `18302` | Saudi Post | `contrib/entities/saudi-post.yaml`
+- `18305` | King Abdulaziz and his Companions Foundation for Giftedness and Creativity | `contrib/entities/king-abdulaziz-and-his-companions-foundation-for-giftedness-and-creativity.yaml`
+- `18308` | Saudi Central Bank | `contrib/entities/saudi-central-bank.yaml`
+- `18311` | The General Organization for the Conservation of Coral Reefs and Turtles in the | `contrib/entities/the-general-organization-for-the-conservation-of-coral-reefs-and-turtles-in-the.yaml`
+- `18314` | Saudi National Institute of Health | `contrib/entities/saudi-national-institute-of-health.yaml`
+- `18317` | King Khalid University | `contrib/entities/king-khalid-university.yaml`
+- `18320` | King Saud University | `contrib/entities/king-saud-university.yaml`
+- `18326` | Military Industries Corporation | `contrib/entities/military-industries-corporation.yaml`
+- `18329` | Supreme Judicial Council | `contrib/entities/supreme-judicial-council.yaml`
+- `100297` | Yunbu, Umluj, Alwajh, and Duba Development Authority | `contrib/entities/yunbu-umluj-alwajh-and-duba-development-authority.yaml`
+- `319731` | Test Agency AC999 | `contrib/entities/test-agency-ac999.yaml`
+- `476449` | The World Cup 2034 Hosting Higher Authority | `contrib/entities/the-world-cup-2034-hosting-higher-authority.yaml`
+- `572145` | National Technology Development Program | `contrib/entities/national-technology-development-program.yaml`
+- `698427` | Saudi Center for Commercial Arbitration | `contrib/entities/saudi-center-for-commercial-arbitration.yaml`
+- `1149483` | Legal Departments Support Program | `contrib/entities/legal-departments-support-program.yaml`
+- `1612859` | Saudi Investment Promotion Authority | `contrib/entities/saudi-investment-promotion-authority.yaml`
+- `2033342` | privet sector partnership program | `contrib/entities/privet-sector-partnership-program.yaml`

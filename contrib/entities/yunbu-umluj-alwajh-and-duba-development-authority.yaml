@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 100297
+slug: 100297-yunbu-umluj-alwajh-and-duba-development-authority
+contrib_file_name: yunbu-umluj-alwajh-and-duba-development-authority.yaml
+is_ministry: false
+category_ids:
+- '17708'
+category_names:
+- Authorities
+- الهيئات
+locales:
+  ar:
+    name: هيئة تطوير ينبع وأملج والوجه وضباء
+    category_id: '17708'
+    category_name: الهيئات
+    detail_url: https://www.my.gov.sa/ar/agencies/100297
+    official_website: https://www.yuwd.gov.sa/
+  en:
+    name: Yunbu, Umluj, Alwajh, and Duba Development Authority
+    category_id: '17708'
+    category_name: Authorities
+    detail_url: https://www.my.gov.sa/en/agencies/100297
+    official_website: https://www.yuwd.gov.sa/
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - Yunbu, Umluj, Alwajh, and Duba Development Authority
+  - هيئة تطوير ينبع وأملج والوجه وضباء
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration

@@ -1,0 +1,11 @@
+name: Add MCP Source
+about: Request a new source or connector for the MCP server
+title: "[source] Add <source name>"
+labels: enhancement, source
+body:
+- **Source name**:
+- **Type**: `ckan` / `rest` / `rest_api_key`
+- **Base URL**:
+- **Endpoints**:
+- **Authentication** (if any):
+- **Why it matters**:

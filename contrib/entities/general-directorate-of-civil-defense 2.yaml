@@ -1,0 +1,42 @@
+# Generated from official GOV.SA directory data.
+# Contributors: claim this file in your PR and complete integration sections.
+entity_id: 17372
+slug: 17372-general-directorate-of-civil-defense
+contrib_file_name: general-directorate-of-civil-defense.yaml
+is_ministry: false
+category_ids:
+- '17846'
+category_names:
+- Directorates
+- المديريات
+locales:
+  ar:
+    name: المديرية العامة للدفاع المدني
+    category_id: '17846'
+    category_name: المديريات
+    detail_url: https://www.my.gov.sa/ar/agencies/17372
+    official_website: http://www.998.gov.sa/english/Pages/Default.aspx
+  en:
+    name: General Directorate of Civil Defense
+    category_id: '17846'
+    category_name: Directorates
+    detail_url: https://www.my.gov.sa/en/agencies/17372
+    official_website: http://www.998.gov.sa/english/Pages/Default.aspx
+open_data_profile:
+  core_catalog_source: ksa_open_data_platform
+  suggested_query_terms:
+  - General Directorate of Civil Defense
+  - المديرية العامة للدفاع المدني
+  recommended_sources:
+  - source_id: ksa_open_data_platform
+    reason: National Data Bank open data catalog (baseline source).
+integration_backlog:
+  status: unclaimed
+  owner: ''
+  priority: medium
+  candidate_sources: []
+  candidate_endpoints: []
+  notes: ''
+  required_tests:
+  - unit
+  - integration
