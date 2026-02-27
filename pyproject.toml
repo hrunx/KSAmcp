@@ -28,6 +28,9 @@ dev = [
   "pytest-mock>=3.11",
   "ruff>=0.0",
   "mypy>=1.8",
+  "types-PyYAML",
+  "types-openpyxl",
+  "types-cachetools",
 ]
 
 [project.urls]

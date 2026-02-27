@@ -25,4 +25,4 @@ jobs:
       - name: Type-check with mypy
         run: .venv/bin/mypy ksa_opendata
       - name: Run tests
-        run: .venv/bin/pytest
+        run: .venv/bin/python -m pytest
